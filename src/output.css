@@ -756,6 +756,10 @@ video {
   margin-top: 1.5rem;
 }
 
+.mb-\[32px\]{
+  margin-bottom: 32px;
+}
+
 .box-border{
   box-sizing: border-box;
 }
@@ -806,10 +810,6 @@ video {
 
 .h-\[24px\]{
   height: 24px;
-}
-
-.h-\[300px\]{
-  height: 300px;
 }
 
 .h-\[40px\]{
@@ -1036,8 +1036,8 @@ video {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
 
-.from-\[\#272727\]{
-  --tw-gradient-from: #272727 var(--tw-gradient-from-position);
+.from-\[\#272727ad\]{
+  --tw-gradient-from: #272727ad var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(39 39 39 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
@@ -1064,6 +1064,11 @@ video {
 .px-3{
   padding-left: 0.75rem;
   padding-right: 0.75rem;
+}
+
+.px-\[32px\]{
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 .py-1\.5{
@@ -1109,6 +1114,10 @@ video {
   font-size: 30px;
 }
 
+.text-\[32px\]{
+  font-size: 32px;
+}
+
 .text-sm{
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -1138,6 +1147,11 @@ video {
 .text-\[\#454545\]{
   --tw-text-opacity: 1;
   color: rgb(69 69 69 / var(--tw-text-opacity));
+}
+
+.text-\[\#4F4F4F\]{
+  --tw-text-opacity: 1;
+  color: rgb(79 79 79 / var(--tw-text-opacity));
 }
 
 .text-\[\#707070\]{
@@ -1238,7 +1252,7 @@ li > a:active {
 .gallery-container {
   display: flex;
   gap: 20px;
-  padding: 2rem;
+  /* padding: 2rem; */
   align-items: center;
   justify-content: space-between;
   min-height: 725px;
@@ -1269,7 +1283,7 @@ li > a:active {
   font-size: 1.25rem;
   font-weight: 500;
   opacity: 1;
-  transition: opacity 0.5s ease;
+  transition: opacity 0.3s ease;
 }
 
 .gallery-item .sub-title {
@@ -1280,6 +1294,15 @@ li > a:active {
 .gallery-item a {
   opacity: 0;
   transition: opacity 0.5s ease;
+}
+
+.gallery-item .filter {
+  height: 100px;
+  transition: height 0.5s ease;
+}
+
+.gallery-item:hover .filter {
+  height: 600px;
 }
 
 .gallery-item:hover .sub-title {
@@ -1327,6 +1350,14 @@ li > a:active {
 
 .hover\:bg-\[\#000000c1\]:hover{
   background-color: #000000c1;
+}
+
+.hover\:font-semibold:hover{
+  font-weight: 600;
+}
+
+.hover\:underline:hover{
+  text-decoration-line: underline;
 }
 
 .hover\:opacity-0:hover{

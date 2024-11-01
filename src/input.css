@@ -37,7 +37,7 @@ li > a:active {
 .gallery-container {
   display: flex;
   gap: 20px;
-  padding: 2rem;
+  /* padding: 2rem; */
   align-items: center;
   justify-content: space-between;
   min-height: 725px;
@@ -67,7 +67,7 @@ li > a:active {
   font-size: 1.25rem;
   font-weight: 500;
   opacity: 1;
-  transition: opacity 0.5s ease;
+  transition: opacity 0.3s ease;
 }
 .gallery-item .sub-title {
   opacity: 0;
@@ -77,6 +77,13 @@ li > a:active {
 .gallery-item a {
   opacity: 0;
   transition: opacity 0.5s ease;
+}
+.gallery-item .filter {
+  height: 100px;
+  transition: height 0.5s ease;
+}
+.gallery-item:hover .filter {
+  height: 600px;
 }
 .gallery-item:hover .sub-title {
   opacity: 1;
