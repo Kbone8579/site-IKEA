@@ -17,7 +17,7 @@ module.exports = {
       const groupVariantPrefixes = ["p1", "p2", "p3"];
 
       function escapeClassName(className) {
-        return className.replace(/[\[\]\(\)\+\*\#\/\%]/g, '\\$&');
+        return className.replace(/[\[\]\(\)\+\*\#\/\%]/g, "\\$&");
       }
       // group-on 변형 추가 함수
       const addGroupOnVariant = (name = "") => {
