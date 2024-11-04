@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #1a365d;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: system-ui, -apple-system, sans-serif;
+  }
+  
+  .gallery {
+    position: relative;
+    width: 700px;
+    height: 800px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 182px;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: yellow;
+    transition: transform 0.3s ease;
+  
+    z-index: 100;
+    user-select: none;
+    background: transparent; /* 배경색 제거 */
+  }
+  
+  .logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  /* .logo:hover {
+    transform: translate(-50%, -50%) scale(1.05);
+  } */
+  
+  /* 나머지 스타일은 동일하게 유지 */
+  .circle-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+  }
+  
+  .circle {
+    position: absolute;
+    width: 144px;
+    height: 144px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+    border: 3px solid #fcd34d;
+    opacity: 0;
+    transform: scale(0.5);
+    pointer-events: auto;
+  }
+  
+  .circle:hover {
+    transform: scale(1.1);
+  }
+  
+  .circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .circle:nth-child(1) {
+    top: 34%;
+    left: 8%;
+  }
+  .circle:nth-child(2) {
+    top: 80px;
+    left: 25%;
+  }
+  .circle:nth-child(3) {
+    top: 80px;
+    right: 25%;
+  }
+  .circle:nth-child(4) {
+    top: 34%;
+    right: 8%;
+  }
+  
+  .fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    background: #0f172a;
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .fullscreen img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #fcd34d;
+    border: none;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1001;
+  }
+  
+  .logo-clicked {
+    animation: logoClick 0.5s ease forwards;
+  }
+  
+  @keyframes logoClick {
+    0% {
+      transform: translate(-50%, -50%) scale(1);
+    }
+    50% {
+      transform: translate(-50%, -50%) scale(0.95);
+    }
+    100% {
+      transform: translate(-50%, -50%) scale(1);
+    }
+  }
+  .fullscreen-1 {
+    background-color: blue;
+  }
+  .fullscreen-2 {
+    background-color: red;
+  }
+  .fullscreen-3 {
+    background-color: yellow;
+  }
+  .fullscreen-4 {
+    background-color: orange;
+  }
+  

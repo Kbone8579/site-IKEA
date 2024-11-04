@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>subsite</title>
 
+    <!-- css -->
+     <link rel="stylesheet" href="output.css">
+     <link rel="stylesheet" href="style.css">
+
     <!-- script -->
     <script defer src="script/subsite_script.js"></script>
     
@@ -16,9 +20,12 @@
   </head>
   <body>
     <div class="gallery">
-      <div class="logo">
-        <img src="https://picsum.photos/id/237/200/300" alt="Custom Logo" />
-      </div>
+      <div class="logo relative group" onclick="toggleImage(this)">
+        <img src="image/IKEA_character_color.png" alt="Custom Logo color" 
+             class="opacity-0 duration-500 z-10" id="colorImg"/>
+        <img src="image/IKEA_character.png" alt="Custom Logo" 
+             class="absolute top-0 left-0 opacity-100 duration-500" id="normalImg"/>
+    </div>
       <div class="circle-container">
         <div class="circle">
           <img src="/api/placeholder/80/80" alt="IKEA 1" />
@@ -51,5 +58,24 @@
       <button class="close-btn">×</button>
       <img src="/api/placeholder/800/600" alt="Fullscreen image 4" />
     </div>
+
+    <script>
+      function toggleImage(element) {
+          const colorImg = element.querySelector('#colorImg');
+          const normalImg = element.querySelector('#normalImg');
+          
+          if (colorImg.classList.contains('opacity-0')) {
+              colorImg.classList.remove('opacity-0');
+              colorImg.classList.add('opacity-100');
+              normalImg.classList.remove('opacity-100');
+              normalImg.classList.add('opacity-0');
+          } else {
+              colorImg.classList.add('opacity-0');
+              colorImg.classList.remove('opacity-100');
+              normalImg.classList.add('opacity-100');
+              normalImg.classList.remove('opacity-0');
+          }
+      }
+      </script>
   </body>
 </html>
