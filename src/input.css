@@ -117,3 +117,5 @@ li > a:active {
 .gallery-item:not(.active):not(:hover) {
   width: 300px;
 }
+
+
