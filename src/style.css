@@ -15,6 +15,14 @@
     align-items: center;
     justify-content: center;
   }
+  .sliderWrap {
+    position: relative;
+  }
+  .sliderWrap .slider {
+    position: absolute;
+    top: 0;
+  }
+
   .gallery {
     position: relative;
     width: 700px;
@@ -164,7 +172,7 @@
     background-size: cover;
   }
   .fullscreen-2 {
-    background-image: url(image_sube/Gwangmyeong.png);
+    background-image: url(image_sube/gwangmyeong.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -174,7 +182,7 @@
     background-size: cover;
   }
   .fullscreen-4 {
-    background-image: url(image_sube/giheung.jpg);
+    background-image: url(image_sube/giheung.png);
     background-repeat: no-repeat;
     background-size: cover;
   }

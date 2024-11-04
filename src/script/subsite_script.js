@@ -74,3 +74,17 @@ $(document).ready(function () {
       });
     });
   });
+
+  $(function(){
+    let currentIndex = 0;
+    $(".slider").hide().first().show()
+
+    setInterval(function(){
+      let nextIndex = (currentIndex + 1) % 3;
+
+      $(".slider").eq(currentIndex).fadeOut(2600);
+      $(".slider").eq(nextIndex).fadeIn(2600);
+
+      currentIndex = nextIndex
+    }, 5000);
+  });
