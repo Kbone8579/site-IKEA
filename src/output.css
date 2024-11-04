@@ -730,6 +730,42 @@ video {
   top: 80px;
 }
 
+.top-\[70\%\]{
+  top: 70%;
+}
+
+.top-\[60\%\]{
+  top: 60%;
+}
+
+.top-\[66\%\]{
+  top: 66%;
+}
+
+.top-\[65\%\]{
+  top: 65%;
+}
+
+.top-\[64\%\]{
+  top: 64%;
+}
+
+.top-\[2px\]{
+  top: 2px;
+}
+
+.top-\[1px\]{
+  top: 1px;
+}
+
+.top-\[62\%\]{
+  top: 62%;
+}
+
+.top-\[63\%\]{
+  top: 63%;
+}
+
 .z-10{
   z-index: 10;
 }
@@ -1447,6 +1483,21 @@ video {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
+.brightness-\[0\.7\]{
+  --tw-brightness: brightness(0.7);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.brightness-\[0\.6\]{
+  --tw-brightness: brightness(0.6);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.brightness-\[0\.4\]{
+  --tw-brightness: brightness(0.4);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
 .filter{
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
@@ -1593,10 +1644,6 @@ li > a:active {
   width: 300px;
 }
 
-.hover\:invisible:hover{
-  visibility: hidden;
-}
-
 .hover\:border-\[2px\]:hover{
   border-width: 2px;
 }
@@ -1639,8 +1686,9 @@ li > a:active {
   opacity: 1;
 }
 
-.group:hover .group-hover\:opacity-0{
-  opacity: 0;
+.group:hover .group-hover\:brightness-\[0\.2\]{
+  --tw-brightness: brightness(0.2);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 @media not all and (min-width: 768px){

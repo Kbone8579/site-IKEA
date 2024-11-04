@@ -19,47 +19,60 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
   </head>
   <body>
-    <div class="gallery">
-      <div class="logo relative group" onclick="toggleImage(this)">
-        <img src="image/IKEA_character_color.png" alt="Custom Logo color" 
-             class="opacity-0 duration-500 z-10" id="colorImg"/>
-        <img src="image/IKEA_character.png" alt="Custom Logo" 
-             class="absolute top-0 left-0 opacity-100 duration-500" id="normalImg"/>
-    </div>
-      <div class="circle-container">
-        <div class="circle">
-          <img src="/api/placeholder/80/80" alt="IKEA 1" />
+    <div class="mian">
+      <div class="mx-auto w-full h-full absolute">
+        <img src="image_sube/subsite_bg_img.png" alt="서브 사이트 배경 이미지" class="h-full w-full brightness-[0.4]">
+      </div>
+      <div class="gallery mx-auto">
+        <div onclick="toggleImage(this)">
+          <div class="logo relative group" onclick="toggleImage(this)">
+            <img src="image_sube/IKEA_character_color.png" alt="Custom Logo IKEA_character FullColor" 
+               class="opacity-0 duration-500 z-10" id="colorImg"/>
+            <img src="image_sube/IKEA_character.png" alt="Custom Logo IKEA_character" 
+               class="absolute top-0 left-0 opacity-100 duration-500" id="normalImg"/>
+          </div>
+          <img src="image_sube/logo-fullcolor.png" alt="logo-fullcolor" class="absolute top-[63%] left-[50%] -translate-x-1/2">
         </div>
-        <div class="circle">
-          <img src="/api/placeholder/80/80" alt="IKEA 2" />
+        <div class="circle-container">
+          <div class="circle relative group">
+            <img src="image_sube/goyang.png" alt="IKEA 고양점" class="group-hover:brightness-[0.2] duration-300"/>
+            <h2 class="absolute opacity-0 group-hover:opacity-100 duration-300 font-semibold">고양점</h2>
+          </div>
+          <div class="circle relative group">
+            <img src="image_sube/Gwangmyeong.jpg" alt="IKEA 광명점" class="group-hover:brightness-[0.2] duration-300" />
+            <h2 class="absolute opacity-0 group-hover:opacity-100 duration-300 font-semibold">광명점</h2>
+          </div>
+          <div class="circle relative group">
+            <img src="image_sube/dongpusan.jpg" alt="IKEA 동부산점" class="group-hover:brightness-[0.2] duration-300" />
+            <h2 class="absolute opacity-0 group-hover:opacity-100 duration-300 font-semibold">동부산점</h2>
+          </div>
+          <div class="circle relative group">
+            <img src="image_sube/giheung.jpg" alt="IKEA 기흥" class="group-hover:brightness-[0.2] duration-300" />
+            <h2 class="absolute opacity-0 group-hover:opacity-100 duration-300 font-semibold">기흥</h2>
+          </div>
         </div>
-        <div class="circle">
-          <img src="/api/placeholder/80/80" alt="IKEA 3" />
-        </div>
-        <div class="circle">
-          <img src="/api/placeholder/80/80" alt="IKEA 4" />
-        </div>
+      </div>
+  
+      <div class="fullscreen fullscreen-1">
+        <button class="close-btn">×</button>
+        <img src="/api/placeholder/800/600" alt="Fullscreen image 1" />
+      </div>
+      <div class="fullscreen fullscreen-2">
+        <button class="close-btn">×</button>
+        <img src="/api/placeholder/800/600" alt="Fullscreen image 2" />
+      </div>
+      <div class="fullscreen fullscreen-3">
+        <button class="close-btn">×</button>
+        <img src="/api/placeholder/800/600" alt="Fullscreen image 3" />
+      </div>
+      <div class="fullscreen fullscreen-4">
+        <button class="close-btn">×</button>
+        <img src="/api/placeholder/800/600" alt="Fullscreen image 4" />
       </div>
     </div>
 
-    <div class="fullscreen fullscreen-1">
-      <button class="close-btn">×</button>
-      <img src="/api/placeholder/800/600" alt="Fullscreen image 1" />
-    </div>
-    <div class="fullscreen fullscreen-2">
-      <button class="close-btn">×</button>
-      <img src="/api/placeholder/800/600" alt="Fullscreen image 2" />
-    </div>
-    <div class="fullscreen fullscreen-3">
-      <button class="close-btn">×</button>
-      <img src="/api/placeholder/800/600" alt="Fullscreen image 3" />
-    </div>
-    <div class="fullscreen fullscreen-4">
-      <button class="close-btn">×</button>
-      <img src="/api/placeholder/800/600" alt="Fullscreen image 4" />
-    </div>
-
     <script>
+      // 캐릭터 변환
       function toggleImage(element) {
           const colorImg = element.querySelector('#colorImg');
           const normalImg = element.querySelector('#normalImg');
