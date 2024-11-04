@@ -159,15 +159,22 @@
     }
   }
   .fullscreen-1 {
-    background-color: blue;
+    background-image: url(image_sube/goyang.png);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .fullscreen-2 {
-    background-color: red;
+    background-image: url(image_sube/Gwangmyeong.png);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .fullscreen-3 {
-    background-color: yellow;
+    background-image: url(image_sube/dongpusan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .fullscreen-4 {
-    background-color: orange;
+    background-image: url(image_sube/giheung.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-  

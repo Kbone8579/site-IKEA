@@ -20,18 +20,26 @@
   </head>
   <body>
     <div class="mian">
-      <div class="mx-auto w-full h-full absolute">
+      <div class="img mx-auto w-full h-full absolute">
+        <div class="top-bar h-[80px] absolute top-0 w-full left-0 flex z-10">
+          <ul class="flex h-full w-full items-center justify-end mr-[30px]">
+            <li class="mr-[20px]"><a href="#"><img src="icon_img/login.png" alt="로그인 아이콘" class="w-[30px] h-[30px]"></a></li>
+            <li><a href="#"><img src="icon_img/store.png" alt="홈 아이콘" class="w-[30px] h-[30px]"></a></li>
+          </ul>
+        </div>
         <img src="image_sube/subsite_bg_img.png" alt="서브 사이트 배경 이미지" class="h-full w-full brightness-[0.4]">
       </div>
-      <div class="gallery mx-auto">
-        <div onclick="toggleImage(this)">
-          <div class="logo relative group" onclick="toggleImage(this)">
+      
+      <div class="gallery mx-auto absolute top-[80px]">
+        <div onclick="toggleImage(this)" class="">
+          <div class="logo relative group flex flex-col" onclick="toggleImage(this)">
             <img src="image_sube/IKEA_character_color.png" alt="Custom Logo IKEA_character FullColor" 
-               class="opacity-0 duration-500 z-10" id="colorImg"/>
+               class="absolute top-0 left-0 opacity-0 duration-500 z-10" id="colorImg"/>
             <img src="image_sube/IKEA_character.png" alt="Custom Logo IKEA_character" 
                class="absolute top-0 left-0 opacity-100 duration-500" id="normalImg"/>
+            <img src="image_sube/logo-fullcolor.png" alt="logo-fullcolor" class="absolute top-[52%] left-0">
+            <h2 class="text-[#ACACAC] absolute top-[120%] -left-[12%] whitespace-nowrap">클릭해서 <span class="text-[#FFDB00]">IKEA</span> 매장을 확인해 보세요</h2>
           </div>
-          <img src="image_sube/logo-fullcolor.png" alt="logo-fullcolor" class="absolute top-[63%] left-[50%] -translate-x-1/2">
         </div>
         <div class="circle-container">
           <div class="circle relative group">
@@ -39,7 +47,7 @@
             <h2 class="absolute opacity-0 group-hover:opacity-100 duration-300 font-semibold">고양점</h2>
           </div>
           <div class="circle relative group">
-            <img src="image_sube/Gwangmyeong.jpg" alt="IKEA 광명점" class="group-hover:brightness-[0.2] duration-300" />
+            <img src="image_sube/Gwangmyeong.png" alt="IKEA 광명점" class="group-hover:brightness-[0.2] duration-300" />
             <h2 class="absolute opacity-0 group-hover:opacity-100 duration-300 font-semibold">광명점</h2>
           </div>
           <div class="circle relative group">
@@ -55,7 +63,7 @@
   
       <div class="fullscreen fullscreen-1">
         <button class="close-btn">×</button>
-        <img src="/api/placeholder/800/600" alt="Fullscreen image 1" />
+        <img src="" alt="Fullscreen image 1"/>
       </div>
       <div class="fullscreen fullscreen-2">
         <button class="close-btn">×</button>
