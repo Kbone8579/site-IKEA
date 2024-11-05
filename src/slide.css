@@ -101,6 +101,10 @@
 .menu-box > ul > li:hover > a::after {
   width: 100%;
 }
+.menu1-all::after {
+  content: "";
+  background-color: #fff;
+}
 .menu3-all {
   width: 1620px;
   margin-left: auto;

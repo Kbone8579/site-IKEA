@@ -1816,11 +1816,11 @@ li > a:active {
   visibility: visible;
 }
 
-.group:hover .group-hover\:font-bold{
+.group\/p1:hover .group-hover\/p1\:font-bold{
   font-weight: 700;
 }
 
-.group\/p1:hover .group-hover\/p1\:font-bold{
+.group:hover .group-hover\:font-bold{
   font-weight: 700;
 }
 
