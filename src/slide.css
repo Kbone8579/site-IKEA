@@ -101,6 +101,60 @@
 .menu-box > ul > li:hover > a::after {
   width: 100%;
 }
+.menu3-bg-box {
+  border: 1px solid red;
+}
+.menu3-all {
+  border: 1px solid orange;
+  width: 1620px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex; 
+}
+.menu3-left-box {
+  border: 1px solid green;
+  background-color: #0058a3;
+}
+.menu3-left-box > ul {
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 35px;
+  gap: 22px;
+}
+.menu3-left-box > ul > li {
+  /* border: 1px solid gray; */
+}
+.menu3-right-box {
+  background-color: gray;
+  flex-grow: 1;
+  display: flex; align-items: center;
+  padding-left: 80px;
+}
+.menu3-list-all {
+  border: 1px solid pink;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+.menu3-text-box {
+  border: 1px solid orange;
+  display: flex; gap: 16px;
+  flex-direction: column;
+  align-items: center;
+}
+.menu3-text {
+  text-align: center;
+}
+.menu3-button {
+  background-color: #101010;
+  color: #fff;
+  /* width: 53px; height: 25px; */
+  padding: 3px 10px;
+  text-align: center;
+  border-radius: 50px;
+}
 .user-box {
   width: 360px;
   display: flex;
