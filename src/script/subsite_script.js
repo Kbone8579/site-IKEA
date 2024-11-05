@@ -90,6 +90,23 @@ $(document).ready(function () {
     }, 5000);
   });
 
+  // 캐릭터 변환
+  function toggleImage(element) {
+    const colorImg = element.querySelector('#colorImg');
+    const normalImg = element.querySelector('#normalImg');
+    
+    if (colorImg.classList.contains('opacity-0')) {
+        colorImg.classList.remove('opacity-0');
+        colorImg.classList.add('opacity-100');
+        normalImg.classList.remove('opacity-100');
+        normalImg.classList.add('opacity-0');
+    } else {
+        colorImg.classList.add('opacity-0');
+        colorImg.classList.remove('opacity-100');
+        normalImg.classList.add('opacity-100');
+        normalImg.classList.remove('opacity-0');
+    }
+}
 
   // 텍스트 복사
 function copyToClipboard(text) {
