@@ -75,9 +75,45 @@
         </div>
       </div>
   
-      <div class="fullscreen fullscreen-1">
+      <div class="fullscreen fullscreen-1 w-full relative">
         <button class="close-btn"><i class="fa-solid fa-x text-white text-[18px]"></i></button>
-        <img src="/api/placeholder/800/600" alt="Fullscreen image 1"/>
+        <div class="address absolute top-0 right-0 w-[580px] h-full py-16 flex flex-col justify-center text-white bg-black bg-opacity-70">
+          <div class="flex flex-col items-center w-full ">
+            <header class="flex flex-col items-center max-w-full text-center w-[174px]">
+              <div class="flex flex-col items-center max-w-full text-4xl font-bold whitespace-nowrap w-[125px]">
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/c018b506ab964497bb028cda08a25364/d1089167480f370d0c5f564948ac6856ca4ac950ca72d3314d42dea20d89c3e5?apiKey=c018b506ab964497bb028cda08a25364&" class="object-contain w-16 aspect-square" alt="Operating hours icon" />
+                <h1 class="mt-5 w-full">운영시간</h1>
+              </div>
+              <div class="flex flex-col mt-6 w-full max-md:mt-10">
+                <div class="flex flex-col w-full">
+                  <h2 class="text-2xl font-medium">평일</h2>
+                  <p class="mt-3 text-sm">
+                    <span class="text-xl">월요일 - 금요일</span>
+                    <br />
+                    <span class="text-lg text-stone-300">오전 11:00 - 오후 9:00</span>
+                  </p>
+                </div>
+                <div class="flex flex-col mt-6 w-full">
+                  <h2 class="text-2xl font-medium">주말</h2>
+                  <p class="mt-4 text-sm">
+                    <span class="text-xl">토요일 - 일요일</span>
+                    <br />
+                    <span class="text-lg text-stone-300">오전 10:00 - 오후 9:00</span>
+                  </p>
+                </div>
+              </div>
+            </header>
+            <div class="flex flex-col self-stretch mt-10 w-full text-lg text-center max-md:mt-10 max-md:max-w-full">
+              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/c018b506ab964497bb028cda08a25364/b5d84fa9e5cc6d59b309a3996ff8f5000d2bf9443fbec6140f0e31fd1d3a4504?apiKey=c018b506ab964497bb028cda08a25364&" class="object-contain self-center max-w-full aspect-[1.5] w-[480px]" alt="IKEA Goyang store location" />
+              <address class="mt-[10px] max-md:max-w-full">
+                IKEA 고양점 덕양구 권율대로 420 고양시 10551
+              </address>
+            </div>
+            <a href="#" class="overflow-hidden p-2.5 mt-[40px] max-w-full text-xl font-medium text-gray-200 rounded-md border border-solid border-stone-50 w-[480px] max-md:mt-10 text-center" tabindex="0" role="button">
+              자세히 보러가기
+            </a>
+          </div>
+        </div>
       </div>
       <div class="fullscreen fullscreen-2">
         <button class="close-btn"><i class="fa-solid fa-x text-white text-[18px]"></i></button>
