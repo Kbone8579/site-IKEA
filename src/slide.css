@@ -101,45 +101,38 @@
 .menu-box > ul > li:hover > a::after {
   width: 100%;
 }
-.menu3-bg-box {
-  border: 1px solid red;
-}
 .menu3-all {
-  border: 1px solid orange;
   width: 1620px;
   margin-left: auto;
   margin-right: auto;
   display: flex; 
 }
 .menu3-left-box {
-  border: 1px solid green;
   background-color: #0058a3;
 }
 .menu3-left-box > ul {
-  border: 1px solid blue;
   display: flex;
   flex-direction: column;
   padding: 20px 35px;
   gap: 22px;
 }
-.menu3-left-box > ul > li {
-  /* border: 1px solid gray; */
-}
 .menu3-right-box {
-  background-color: gray;
+  background-color: #fff;
   flex-grow: 1;
-  display: flex; align-items: center;
   padding-left: 80px;
+  display: flex; align-items: center; justify-content: space-between;
+}
+.m3-rig {
+  display: flex; gap: 70px;
 }
 .menu3-list-all {
-  border: 1px solid pink;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 6px;
+  cursor: pointer;
 }
 .menu3-text-box {
-  border: 1px solid orange;
   display: flex; gap: 16px;
   flex-direction: column;
   align-items: center;
@@ -154,6 +147,24 @@
   padding: 3px 10px;
   text-align: center;
   border-radius: 50px;
+}
+.m3-left {
+  display: flex; gap: 8px; align-items: center;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.m3-l-btn {
+  background-color: #fff;
+  width: 23px; height: 23px;
+  border: 1px solid #C8C8C8;
+  border-radius: 20px;
+}
+.m3-l-btn > span {
+  font-size: 16px;
+  text-align: center;
+  line-height: 23px;
+  margin-left: 2.5px;
+  color: #C8C8C8;
 }
 .user-box {
   width: 360px;
