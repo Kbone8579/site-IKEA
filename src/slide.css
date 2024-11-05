@@ -67,6 +67,11 @@
   left: 0;
   z-index: 10;
 }
+.top-bar.hover {
+  color: #000;
+  background-color: #fff;
+}
+
 .contant {
   height: 100%;
   margin-left: 150px;

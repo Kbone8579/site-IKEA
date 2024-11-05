@@ -1,4 +1,10 @@
 $(document).ready(function () {
+  $(".top-bar").mouseenter(function(){
+    $(".top-bar").addClass("hover");
+  });
+  $(".top-bar").mouseleave(function(){
+    $(".top-bar").removeClass("hover");
+  });
   const swiper = new Swiper(".swiper", {
     // Optional parameters
     direction: "horizontal",
