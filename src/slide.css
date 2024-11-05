@@ -1,0 +1,118 @@
+/* 스와이퍼 */
+.swiper {
+  min-width: 1080px;
+  height: 100vh;
+}
+/* .swiper-slide-1 {
+    position: relative;
+} */
+.swiper-bg {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.swiper-pagination {
+  position: absolute;
+  margin-bottom: 50px;
+  left: 0;
+  display: flex;
+  padding: 0 1em;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+  z-index: 2;
+}
+.progress__bar {
+  position: relative;
+  width: 150px;
+  height: 3px;
+  margin: 0 20px;
+  background-color: #969696;
+}
+.progress__fill {
+  position: absolute;
+  inset: 0;
+  display: block;
+  height: 100%;
+  background-color: #fff;
+}
+.current {
+  color: #fff;
+}
+
+.ss-text {
+  position: absolute;
+  top: 335px;
+  left: 150px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* 탑바 */
+.top-bar {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.contant {
+  height: 100%;
+  margin-left: 150px;
+  margin-right: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  width: 360px;
+  display: flex;
+}
+.logo > a {
+  display: flex;
+  align-items: center;
+}
+.menu-box > ul > li > a {
+  position: relative;
+}
+.menu-box > ul > li > a::after {
+  content: "";
+  background-color: #0058a3;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  transition: width 0.4s;
+  z-index: 10;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.menu-box > ul > li:hover > a::after {
+  width: 100%;
+}
+.user-box {
+  width: 360px;
+  display: flex;
+  justify-content: flex-end;
+}
+.user-box > ul {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.user-box > ul > li > a {
+  display: flex;
+  align-items: center;
+  position: relative;
+}

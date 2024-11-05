@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>슬라이드</title>
+    <!-- 스타일시트 연결 -->
+    <link rel="stylesheet" href="output.css" />
+    <link rel="stylesheet" href="slide.css" />
+    <link rel="stylesheet" href="style2.css" />
+    <!-- 스와이퍼 연결 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- 제이쿼리 연결 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- 자바스크립트 연결 -->
+    <script src="index.js"></script>
+  </head>
+
+  <body>
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-slide-1">
+          <img src="image-slide/banner-1.png" alt="배너1" />
+          <div class="swiper-bg"></div>
+          <div class="ss-text">
+            <p class="fc-FFFFFF fw-700 fs-60">
+              IKEA만의 가을맞이 신제품을<br />소개합니다
+            </p>
+            <p class="fc-FFFFFF fw-300 fs-26">
+              쌀쌀한 바람이 불어오는 계절이 찾아왔어요.<br />700여개의 다양한
+              신제품들로 아늑하고 편안한 공간을 연출해 보세요.
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide swiper-slide-2">
+          <img src="image-slide/banner-2.png" alt="배너2" />
+          <div class="swiper-bg"></div>
+          <div class="ss-text">
+            <p class="fc-FFFFFF fw-700 fs-60">
+              IKEA가 앞장서는<br />함께 바꿔요, 지구의 미래
+            </p>
+            <p class="fc-FFFFFF fw-300 fs-26">
+              이케아 재난이 놀라운 솔루션을 통해 어떻게 빈곤과 기후변화에
+              <br />대응하고 있는지 알아보세요.
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide swiper-slide-3">
+          <img src="image-slide/banner-3.png" alt="배너3" />
+          <div class="swiper-bg"></div>
+          <div class="ss-text">
+            <p class="fc-FFFFFF fw-700 fs-60">
+              IKEA 팝업스토어<br />신세계백화점 스타필드 하남점
+            </p>
+            <p class="fc-FFFFFF fw-300 fs-26">
+              다양한 매력의 이케아 베스트셀러 제품들을 <br />신세계백화점
+              스타필드 하남점에서 만나보세요.
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide swiper-slide-4">
+          <img src="image-slide/banner-4.png" alt="배너4" />
+          <div class="swiper-bg"></div>
+          <div class="ss-text">
+            <p class="fc-FFFFFF fw-700 fs-60">
+              지속가능한 라이프스타일을 위한<br />IKEA의 제안
+            </p>
+            <p class="fc-FFFFFF fw-300 fs-26">
+              쓰레기 줄이기, 물 줄이기, 사용중인 제품 관리하기 등은 지구를
+              지켜주는 <br />대표적인 방법들이죠. 일상의 사소한 습관들이 쌓여
+              지속가능한 지구를 만들어 주세요.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <!-- <div class="swiper-button-prev"></div> -->
+      <!-- <div class="swiper-button-next"></div> -->
+
+      <!-- If we need scrollbar -->
+      <!-- <div class="swiper-scrollbar"></div> -->
+    </div>
+    <div class="top-bar">
+      <div class="contant">
+        <div class="logo">
+          <a href="#"><img src="image-slide/logo.png" alt="로고아이콘" /></a>
+        </div>
+        <div class="menu-box">
+          <ul class="flex bg-red-100 h-full gap-[40px]">
+            <li class="group">
+              <a
+                class="fc-FFFFFF h-full flex justify-center flex-col fs-16 block bg-red-200 group-hover:font-bold group-hover:text-[#0058A3]"
+                href="#"
+                >모든제품</a
+              >
+              <div
+                class="invisible group-hover:visible h-[60px] bg-[#fff] absolute w-full left-0 top-[80px]"
+              >
+                <ul
+                  class="menu-2 text-[14px] flex bg-red-200 h-full justify-center items-center gap-[40px]"
+                >
+                  <li class="group/p1 bg-blue-500 h-full">
+                    <a
+                      href="#"
+                      class="relative block top-0 bg-red-100 h-full flex justify-center items-center"
+                      >신제품</a
+                    >
+                    <div
+                      class="invisible group-hover/p1:visible absolute w-full left-0 bg-[#fff] top-[60px] flex left-0"
+                    >
+                      <ul class="flex h-[350px]">
+                        <li><a href="#">text01</a></li>
+                        <li><a href="#">text02</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="#">시즌별 제품</a></li>
+                  <li><a href="#">가구</a></li>
+                  <li><a href="#">주방</a></li>
+                  <li><a href="#">욕실</a></li>
+                  <li><a href="#">청소/수납</a></li>
+                  <li><a href="#">조명</a></li>
+                  <li><a href="#">홈데코/식물</a></li>
+                  <li><a href="#">가전/홈스마트</a></li>
+                  <li><a href="#">어린이 IKEA</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a class="fc-FFFFFF fw-400 fs-16" href="#">특별한 가격</a>
+            </li>
+            <li><a class="fc-FFFFFF fw-400 fs-16" href="#">셀프 플래닝</a></li>
+            <li><a class="fc-FFFFFF fw-400 fs-16" href="#">IKEA 서비스</a></li>
+            <li><a class="fc-FFFFFF fw-400 fs-16" href="#">더보기</a></li>
+          </ul>
+        </div>
+        <div class="user-box">
+          <ul>
+            <li>
+              <a class="mr-8" href="#"
+                ><img src="image-slide/Vector.png" alt="검색아이콘"
+              /></a>
+            </li>
+            <li><a class="fc-FFFFFF fs-13 fw-300" href="#">로그인</a></li>
+            <div class="fc-B4B4B4">|</div>
+            <li><a class="fc-FFFFFF fs-13 fw-300" href="#">회원가입</a></li>
+            <div class="fc-B4B4B4">|</div>
+            <li><a class="fc-FFFFFF fs-13 fw-300" href="#">장바구니</a></li>
+            <div class="fc-B4B4B4">|</div>
+            <li><a class="fc-FFFFFF fs-13 fw-300" href="#">마이페이지</a></li>
+            <li>
+              <a class="ml-8" href="#"
+                ><img src="image-slide/density_medium.png" alt="메뉴아이콘"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

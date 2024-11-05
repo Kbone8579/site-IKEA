@@ -734,6 +734,10 @@ video {
   top: 58px;
 }
 
+.top-\[60px\]{
+  top: 60px;
+}
+
 .top-\[70px\]{
   top: 70px;
 }
@@ -769,8 +773,16 @@ video {
   margin-bottom: 32px;
 }
 
-.mr-\[20px\]{
-  margin-right: 20px;
+.ml-8{
+  margin-left: 2rem;
+}
+
+.mr-8{
+  margin-right: 2rem;
+}
+
+.mr-\[24px\]{
+  margin-right: 24px;
 }
 
 .mr-\[30px\]{
@@ -803,14 +815,6 @@ video {
 
 .mt-80{
   margin-top: 20rem;
-}
-
-.mr-\[40px\]{
-  margin-right: 40px;
-}
-
-.mr-\[24px\]{
-  margin-right: 24px;
 }
 
 .box-border{
@@ -877,6 +881,10 @@ video {
   height: 30px;
 }
 
+.h-\[350px\]{
+  height: 350px;
+}
+
 .h-\[380px\]{
   height: 380px;
 }
@@ -891,6 +899,10 @@ video {
 
 .h-\[44px\]{
   height: 44px;
+}
+
+.h-\[60px\]{
+  height: 60px;
 }
 
 .h-\[784px\]{
@@ -1151,6 +1163,10 @@ video {
   gap: 22px;
 }
 
+.gap-\[40px\]{
+  gap: 40px;
+}
+
 .gap-\[8px\]{
   gap: 8px;
 }
@@ -1236,9 +1252,29 @@ video {
   background-color: rgb(175 175 175 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#fff\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-blue-500{
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+
 .bg-gray-300{
   --tw-bg-opacity: 1;
   background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+}
+
+.bg-red-100{
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 226 226 / var(--tw-bg-opacity));
+}
+
+.bg-red-200{
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
 }
 
 .bg-sky-700{
@@ -1330,6 +1366,10 @@ video {
   line-height: 2rem;
 }
 
+.text-\[14px\]{
+  font-size: 14px;
+}
+
 .text-\[18px\]{
   font-size: 18px;
 }
@@ -1359,18 +1399,6 @@ video {
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-\[15px\]{
-  font-size: 15px;
-}
-
-.text-\[28px\]{
-  font-size: 28px;
-}
-
-.text-\[20px\]{
-  font-size: 20px;
 }
 
 .font-bold{
@@ -1688,6 +1716,23 @@ li > a:active {
 
 .hover\:opacity-0:hover{
   opacity: 0;
+}
+
+.group\/p1:hover .group-hover\/p1\:visible{
+  visibility: visible;
+}
+
+.group:hover .group-hover\:visible{
+  visibility: visible;
+}
+
+.group:hover .group-hover\:font-bold{
+  font-weight: 700;
+}
+
+.group:hover .group-hover\:text-\[\#0058A3\]{
+  --tw-text-opacity: 1;
+  color: rgb(0 88 163 / var(--tw-text-opacity));
 }
 
 .group:hover .group-hover\:opacity-100{
