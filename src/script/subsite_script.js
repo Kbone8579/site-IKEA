@@ -1,3 +1,4 @@
+// 클릭시 원형 화면 확대
 $(document).ready(function () {
     let circlesVisible = false;
   
@@ -88,3 +89,15 @@ $(document).ready(function () {
       currentIndex = nextIndex
     }, 5000);
   });
+
+
+  // 텍스트 복사
+function copyToClipboard(text) {
+  var dummy = document.createElement("textarea");
+  document.body.appendChild(dummy);
+  dummy.value = text;
+  dummy.select();
+  document.execCommand("copy");
+  document.body.removeChild(dummy);
+  alert("복사되었습니다.");
+}

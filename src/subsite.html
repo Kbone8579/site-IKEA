@@ -76,36 +76,38 @@
       </div>
   
       <div class="fullscreen fullscreen-1 w-full relative">
-        <button class="close-btn"><i class="fa-solid fa-x text-white text-[18px]"></i></button>
-        <div class="address absolute top-0 right-0 w-[580px] h-full py-16 flex flex-col justify-center text-white bg-black bg-opacity-70">
+        <button class="close-btn"><i class="fa-solid fa-x text-white text-[30px]"></i></button>
+        <div class="address absolute top-0 left-0 w-[580px] h-full py-16 flex flex-col justify-center text-white bg-black bg-opacity-70">
           <div class="flex flex-col items-center w-full ">
             <header class="flex flex-col items-center max-w-full text-center w-[174px]">
               <div class="flex flex-col items-center max-w-full text-4xl font-bold whitespace-nowrap w-[125px]">
                 <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/c018b506ab964497bb028cda08a25364/d1089167480f370d0c5f564948ac6856ca4ac950ca72d3314d42dea20d89c3e5?apiKey=c018b506ab964497bb028cda08a25364&" class="object-contain w-16 aspect-square" alt="Operating hours icon" />
-                <h1 class="mt-5 w-full">운영시간</h1>
+                <h1 class="mt-5 w-full text-2xl">운영시간</h1>
               </div>
               <div class="flex flex-col mt-6 w-full max-md:mt-10">
                 <div class="flex flex-col w-full">
-                  <h2 class="text-2xl font-medium">평일</h2>
+                  <h2 class="text-xl font-medium">평일</h2>
                   <p class="mt-3 text-sm">
-                    <span class="text-xl">월요일 - 금요일</span>
+                    <span class="text-lg">월요일 - 금요일</span>
                     <br />
-                    <span class="text-lg text-stone-300">오전 11:00 - 오후 9:00</span>
+                    <span class="text-md text-stone-300">오전 11:00 - 오후 9:00</span>
                   </p>
                 </div>
                 <div class="flex flex-col mt-6 w-full">
-                  <h2 class="text-2xl font-medium">주말</h2>
+                  <h2 class="text-xl font-medium">주말</h2>
                   <p class="mt-4 text-sm">
-                    <span class="text-xl">토요일 - 일요일</span>
+                    <span class="text-lg">토요일 - 일요일</span>
                     <br />
-                    <span class="text-lg text-stone-300">오전 10:00 - 오후 9:00</span>
+                    <span class="text-md text-stone-300">오전 10:00 - 오후 9:00</span>
                   </p>
                 </div>
               </div>
             </header>
-            <div class="flex flex-col self-stretch mt-10 w-full text-lg text-center max-md:mt-10 max-md:max-w-full">
-              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/c018b506ab964497bb028cda08a25364/b5d84fa9e5cc6d59b309a3996ff8f5000d2bf9443fbec6140f0e31fd1d3a4504?apiKey=c018b506ab964497bb028cda08a25364&" class="object-contain self-center max-w-full aspect-[1.5] w-[480px]" alt="IKEA Goyang store location" />
-              <address class="mt-[10px] max-md:max-w-full">
+            <div class="flex flex-col self-stretch mt-10 w-full text-md text-center max-md:mt-10 max-md:max-w-full">
+              <div class="map object-contain self-center w-full aspect-[1.5] w-[480px]" id="inf">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3159.8125881243836!2d126.86040431196592!3d37.63009597190554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c9a03f2f3cfe9%3A0x726a531ab635281!2z7J207LyA7JWEIOqzoOyWkeygkA!5e0!3m2!1sko!2skr!4v1730793903724!5m2!1sko!2skr" width="480" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="flex w-full"></iframe>
+              </div>
+              <address class="mt-[10px] max-md:max-w-full text-[#E4E4E4]" onclick="copyToClipboard('IKEA 고양점 덕양구 권율대로 420 고양시 10551')">
                 IKEA 고양점 덕양구 권율대로 420 고양시 10551
               </address>
             </div>
@@ -116,16 +118,130 @@
         </div>
       </div>
       <div class="fullscreen fullscreen-2">
-        <button class="close-btn"><i class="fa-solid fa-x text-white text-[18px]"></i></button>
-        <img src="/api/placeholder/800/600" alt="Fullscreen image 2" />
+        <button class="close-btn"><i class="fa-solid fa-x text-white text-[30px]"></i></button>
+        <div class="address absolute top-0 left-0 w-[580px] h-full py-16 flex flex-col justify-center text-white bg-black bg-opacity-70">
+          <div class="flex flex-col items-center w-full ">
+            <header class="flex flex-col items-center max-w-full text-center w-[174px]">
+              <div class="flex flex-col items-center max-w-full text-4xl font-bold whitespace-nowrap w-[125px]">
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/c018b506ab964497bb028cda08a25364/d1089167480f370d0c5f564948ac6856ca4ac950ca72d3314d42dea20d89c3e5?apiKey=c018b506ab964497bb028cda08a25364&" class="object-contain w-16 aspect-square" alt="Operating hours icon" />
+                <h1 class="mt-5 w-full text-2xl">운영시간</h1>
+              </div>
+              <div class="flex flex-col mt-6 w-full max-md:mt-10">
+                <div class="flex flex-col w-full">
+                  <h2 class="text-xl font-medium">평일</h2>
+                  <p class="mt-3 text-sm">
+                    <span class="text-lg">월요일 - 금요일</span>
+                    <br />
+                    <span class="text-md text-stone-300">오전 11:00 - 오후 9:00</span>
+                  </p>
+                </div>
+                <div class="flex flex-col mt-6 w-full">
+                  <h2 class="text-xl font-medium">주말</h2>
+                  <p class="mt-4 text-sm">
+                    <span class="text-lg">토요일 - 일요일</span>
+                    <br />
+                    <span class="text-md text-stone-300">오전 10:00 - 오후 9:00</span>
+                  </p>
+                </div>
+              </div>
+            </header>
+            <div class="flex flex-col self-stretch mt-10 w-full text-md text-center max-md:mt-10 max-md:max-w-full">
+              <div class="map object-contain self-center w-full aspect-[1.5] w-[480px]" id="inf">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3159.8125881243836!2d126.86040431196592!3d37.63009597190554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c9a03f2f3cfe9%3A0x726a531ab635281!2z7J207LyA7JWEIOqzoOyWkeygkA!5e0!3m2!1sko!2skr!4v1730793903724!5m2!1sko!2skr" width="480" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="flex w-full"></iframe>
+              </div>
+              <address class="mt-[10px] max-md:max-w-full text-[#E4E4E4]" onclick="copyToClipboard('IKEA 고양점 덕양구 권율대로 420 고양시 10551')">
+                IKEA 고양점 덕양구 권율대로 420 고양시 10551
+              </address>
+            </div>
+            <a href="#" class="overflow-hidden p-2.5 mt-[40px] max-w-full text-xl font-medium text-gray-200 rounded-md border border-solid border-stone-50 w-[480px] max-md:mt-10 text-center" tabindex="0" role="button">
+              자세히 보러가기
+            </a>
+          </div>
+        </div>
       </div>
       <div class="fullscreen fullscreen-3">
-        <button class="close-btn"><i class="fa-solid fa-x text-white text-[18px]"></i></button>
-        <img src="/api/placeholder/800/600" alt="Fullscreen image 3" />
+        <button class="close-btn"><i class="fa-solid fa-x text-white text-[30px]"></i></button>
+        <div class="address absolute top-0 left-0 w-[580px] h-full py-16 flex flex-col justify-center text-white bg-black bg-opacity-70">
+          <div class="flex flex-col items-center w-full ">
+            <header class="flex flex-col items-center max-w-full text-center w-[174px]">
+              <div class="flex flex-col items-center max-w-full text-4xl font-bold whitespace-nowrap w-[125px]">
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/c018b506ab964497bb028cda08a25364/d1089167480f370d0c5f564948ac6856ca4ac950ca72d3314d42dea20d89c3e5?apiKey=c018b506ab964497bb028cda08a25364&" class="object-contain w-16 aspect-square" alt="Operating hours icon" />
+                <h1 class="mt-5 w-full text-2xl">운영시간</h1>
+              </div>
+              <div class="flex flex-col mt-6 w-full max-md:mt-10">
+                <div class="flex flex-col w-full">
+                  <h2 class="text-xl font-medium">평일</h2>
+                  <p class="mt-3 text-sm">
+                    <span class="text-lg">월요일 - 금요일</span>
+                    <br />
+                    <span class="text-md text-stone-300">오전 11:00 - 오후 9:00</span>
+                  </p>
+                </div>
+                <div class="flex flex-col mt-6 w-full">
+                  <h2 class="text-xl font-medium">주말</h2>
+                  <p class="mt-4 text-sm">
+                    <span class="text-lg">토요일 - 일요일</span>
+                    <br />
+                    <span class="text-md text-stone-300">오전 10:00 - 오후 9:00</span>
+                  </p>
+                </div>
+              </div>
+            </header>
+            <div class="flex flex-col self-stretch mt-10 w-full text-md text-center max-md:mt-10 max-md:max-w-full">
+              <div class="map object-contain self-center w-full aspect-[1.5] w-[480px]" id="inf">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3159.8125881243836!2d126.86040431196592!3d37.63009597190554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c9a03f2f3cfe9%3A0x726a531ab635281!2z7J207LyA7JWEIOqzoOyWkeygkA!5e0!3m2!1sko!2skr!4v1730793903724!5m2!1sko!2skr" width="480" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="flex w-full"></iframe>
+              </div>
+              <address class="mt-[10px] max-md:max-w-full text-[#E4E4E4]" onclick="copyToClipboard('IKEA 고양점 덕양구 권율대로 420 고양시 10551')">
+                IKEA 고양점 덕양구 권율대로 420 고양시 10551
+              </address>
+            </div>
+            <a href="#" class="overflow-hidden p-2.5 mt-[40px] max-w-full text-xl font-medium text-gray-200 rounded-md border border-solid border-stone-50 w-[480px] max-md:mt-10 text-center" tabindex="0" role="button">
+              자세히 보러가기
+            </a>
+          </div>
+        </div>
       </div>
       <div class="fullscreen fullscreen-4">
-        <button class="close-btn"><i class="fa-solid fa-x text-white text-[18px]"></i></button>
-        <img src="/api/placeholder/800/600" alt="Fullscreen image 4" />
+        <button class="close-btn"><i class="fa-solid fa-x text-white text-[30px]"></i></button>
+        <div class="address absolute top-0 left-0 w-[580px] h-full py-16 flex flex-col justify-center text-white bg-black bg-opacity-70">
+          <div class="flex flex-col items-center w-full ">
+            <header class="flex flex-col items-center max-w-full text-center w-[174px]">
+              <div class="flex flex-col items-center max-w-full text-4xl font-bold whitespace-nowrap w-[125px]">
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/c018b506ab964497bb028cda08a25364/d1089167480f370d0c5f564948ac6856ca4ac950ca72d3314d42dea20d89c3e5?apiKey=c018b506ab964497bb028cda08a25364&" class="object-contain w-16 aspect-square" alt="Operating hours icon" />
+                <h1 class="mt-5 w-full text-2xl">운영시간</h1>
+              </div>
+              <div class="flex flex-col mt-6 w-full max-md:mt-10">
+                <div class="flex flex-col w-full">
+                  <h2 class="text-xl font-medium">평일</h2>
+                  <p class="mt-3 text-sm">
+                    <span class="text-lg">월요일 - 금요일</span>
+                    <br />
+                    <span class="text-md text-stone-300">오전 11:00 - 오후 9:00</span>
+                  </p>
+                </div>
+                <div class="flex flex-col mt-6 w-full">
+                  <h2 class="text-xl font-medium">주말</h2>
+                  <p class="mt-4 text-sm">
+                    <span class="text-lg">토요일 - 일요일</span>
+                    <br />
+                    <span class="text-md text-stone-300">오전 10:00 - 오후 9:00</span>
+                  </p>
+                </div>
+              </div>
+            </header>
+            <div class="flex flex-col self-stretch mt-10 w-full text-md text-center max-md:mt-10 max-md:max-w-full">
+              <div class="map object-contain self-center w-full aspect-[1.5] w-[480px]" id="inf">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3159.8125881243836!2d126.86040431196592!3d37.63009597190554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c9a03f2f3cfe9%3A0x726a531ab635281!2z7J207LyA7JWEIOqzoOyWkeygkA!5e0!3m2!1sko!2skr!4v1730793903724!5m2!1sko!2skr" width="480" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="flex w-full"></iframe>
+              </div>
+              <address class="mt-[10px] max-md:max-w-full text-[#E4E4E4]" onclick="copyToClipboard('IKEA 고양점 덕양구 권율대로 420 고양시 10551')">
+                IKEA 고양점 덕양구 권율대로 420 고양시 10551
+              </address>
+            </div>
+            <a href="#" class="overflow-hidden p-2.5 mt-[40px] max-w-full text-xl font-medium text-gray-200 rounded-md border border-solid border-stone-50 w-[480px] max-md:mt-10 text-center" tabindex="0" role="button">
+              자세히 보러가기
+            </a>
+          </div>
+        </div>
       </div>
     </div>
 
