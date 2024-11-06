@@ -31,6 +31,13 @@ body {margin: 0; padding: 0;}
     font-weight: 700;
     font-style: normal;
 }
+/* 상주경천섬체 폰트 */
+@font-face {
+    font-family: 'SANGJUGyeongcheonIsland';
+    src: url('https://gcore.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/SANGJUGyeongcheonIsland.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /* 라이브러리 */
 /* 두께 */
@@ -119,6 +126,8 @@ body {margin: 0; padding: 0;}
 .mr-8{margin-right: 8px;}
 
 .ml-8{margin-left: 8px;}
+
+.SANGJUG-font {font-family: 'SANGJUGyeongcheonIsland', sans-serif;}
 
 /* 노멀라이즈 */
 body,ul,li {margin: 0; padding: 0; list-style: none;}
