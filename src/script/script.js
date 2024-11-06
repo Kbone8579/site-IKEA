@@ -23,3 +23,16 @@ $(document).ready(function () {
     }
   });
 });
+
+// tap 메뉴
+$(document).ready(function(){
+  $(".category .swiper-wrapper a").click(function(){
+    $(".category .swiper-wrapper a").removeClass("active");
+    $(this).addClass("active");
+
+    var index = $(this).parent().index();
+
+    $(".all_box > main_box").fadeOut(0);
+    $(".all_box > main_box").eq(index).fadeIn(0);
+  });
+});

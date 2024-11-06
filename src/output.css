@@ -1770,6 +1770,10 @@ li > a:active {
   width: 300px;
 }
 
+.category a.active {
+  opacity: 0 !important;
+}
+
 .hover\:border-\[2px\]:hover{
   border-width: 2px;
 }
@@ -1804,8 +1808,12 @@ li > a:active {
   text-decoration-line: underline;
 }
 
-.hover\:opacity-0:hover{
+.active\:opacity-0:active{
   opacity: 0;
+}
+
+.active\:opacity-100:active{
+  opacity: 1;
 }
 
 .group\/p1:hover .group-hover\/p1\:visible{
@@ -1852,5 +1860,4 @@ li > a:active {
     padding-right: 1.25rem;
   }
 }
-
 

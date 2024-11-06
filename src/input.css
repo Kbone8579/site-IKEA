@@ -118,4 +118,7 @@ li > a:active {
   width: 300px;
 }
 
+.category a.active {
+  opacity: 0 !important;
+}
 
