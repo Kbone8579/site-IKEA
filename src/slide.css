@@ -6,6 +6,21 @@
 /* .swiper-slide-1 {
     position: relative;
 } */
+.swiper-slide-1 {
+  background-image: url(image-slide/banner-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.swiper-slide-2 {
+  background-image: url(image-slide/banner-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.swiper-slide-3 {
+  background-image: url(image-slide/banner-3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .swiper-bg {
   position: absolute;
   z-index: 1;
@@ -66,12 +81,13 @@
   left: 0;
   z-index: 10;
   color: white;
+  white-space: nowrap;
 }
 .top-bar:hover {
   color: #333;
   background-color: #fff;
   transition: 0.3s;
-  border-bottom: 1px solid #EBEBEB;
+  border-bottom: 1px solid #ebebeb;
 }
 .contant {
   height: 100%;
@@ -120,7 +136,6 @@
 .menu1-all::after {
   content: "";
   background-color: #fff;
-  
 }
 .menu-2 > li {
   padding: 0 20px;
