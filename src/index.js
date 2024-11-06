@@ -36,10 +36,10 @@ $(document).ready(function () {
       prevEl: ".swiper-button-prev",
     },
 
-    // autoplay: {
-    //     delay: 2000,
-    //     disableOnInteraction: false,
-    // },
+    autoplay: {
+        delay: 2000,
+        disableOnInteraction: false,
+    },
 
     // And if we need scrollbar
     scrollbar: {

@@ -59,33 +59,44 @@
 /* 탑바 */
 .top-bar {
   position: fixed;
-  background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
   height: 80px;
   position: absolute;
   top: 0;
   left: 0;
   z-index: 10;
+  color: white;
 }
-.top-bar.hover {
-  color: #000;
+.top-bar:hover {
+  color: #333;
   background-color: #fff;
+  transition: 0.3s;
+  border-bottom: 1px solid #EBEBEB;
 }
-
 .contant {
   height: 100%;
   margin-left: 150px;
   margin-right: 150px;
   display: flex;
   justify-content: space-between;
+  transition: 0.3s;
 }
 .logo {
   width: 360px;
   display: flex;
-}
-.logo > a {
   display: flex;
   align-items: center;
+}
+.logo::before {
+  content: "";
+  width: 118px;
+  height: 18px;
+  background-image: url(image-slide/logo.png);
+  background-repeat: no-repeat;
+  transition: 0.3s;
+}
+.top-bar:hover .logo::before {
+  background-image: url(image-slide/logo-color.png);
 }
 .menu-box > ul > li > a {
   position: relative;
@@ -109,12 +120,16 @@
 .menu1-all::after {
   content: "";
   background-color: #fff;
+  
+}
+.menu-2 > li {
+  padding: 0 20px;
 }
 .menu3-all {
   width: 1620px;
   margin-left: auto;
   margin-right: auto;
-  display: flex; 
+  display: flex;
 }
 .menu3-left-box {
   background-color: #0058a3;
@@ -123,16 +138,19 @@
   display: flex;
   flex-direction: column;
   padding: 20px 35px;
-  gap: 22px;
+  gap: 20px;
 }
 .menu3-right-box {
   background-color: #fff;
   flex-grow: 1;
   padding-left: 80px;
-  display: flex; align-items: center; justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .m3-rig {
-  display: flex; gap: 70px;
+  display: flex;
+  gap: 70px;
 }
 .menu3-list-all {
   display: flex;
@@ -142,7 +160,8 @@
   cursor: pointer;
 }
 .menu3-text-box {
-  display: flex; gap: 16px;
+  display: flex;
+  gap: 16px;
   flex-direction: column;
   align-items: center;
 }
@@ -158,14 +177,17 @@
   border-radius: 50px;
 }
 .m3-left {
-  display: flex; gap: 8px; align-items: center;
+  display: flex;
+  gap: 8px;
+  align-items: center;
   margin-right: 30px;
   cursor: pointer;
 }
 .m3-l-btn {
   background-color: #fff;
-  width: 23px; height: 23px;
-  border: 1px solid #C8C8C8;
+  width: 23px;
+  height: 23px;
+  border: 1px solid #c8c8c8;
   border-radius: 20px;
 }
 .m3-l-btn > span {
@@ -173,7 +195,7 @@
   text-align: center;
   line-height: 23px;
   margin-left: 2.5px;
-  color: #C8C8C8;
+  color: #c8c8c8;
 }
 .user-box {
   width: 360px;
