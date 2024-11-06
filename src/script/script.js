@@ -32,7 +32,7 @@ $(document).ready(function(){
 
     var index = $(this).parent().index();
 
-    $(".all_box > main_box").fadeOut(0);
-    $(".all_box > main_box").eq(index).fadeIn(0);
+    $(".all_box > .main_box").addClass("hidden");
+    $(".all_box > .main_box").eq(index).removeClass("hidden");
   });
 });
