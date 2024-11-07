@@ -1,0 +1,8 @@
+@media screen and (max-width: 1650px) {
+  .img-all-box {
+    /* position: relative; */
+    /* bottom: 2500px; */
+    display: flex;
+    flex-direction: row;
+  }
+}

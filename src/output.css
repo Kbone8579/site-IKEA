@@ -678,6 +678,10 @@ video {
   left: 130px;
 }
 
+.left-\[150px\]{
+  left: 150px;
+}
+
 .left-\[170px\]{
   left: 170px;
 }
@@ -688,6 +692,10 @@ video {
 
 .left-\[200px\]{
   left: 200px;
+}
+
+.left-\[230px\]{
+  left: 230px;
 }
 
 .left-\[250px\]{
@@ -786,12 +794,32 @@ video {
   top: 1570px;
 }
 
+.top-\[170px\]{
+  top: 170px;
+}
+
 .top-\[180px\]{
   top: 180px;
 }
 
 .top-\[190px\]{
   top: 190px;
+}
+
+.top-\[230px\]{
+  top: 230px;
+}
+
+.top-\[280px\]{
+  top: 280px;
+}
+
+.top-\[290px\]{
+  top: 290px;
+}
+
+.top-\[300px\]{
+  top: 300px;
 }
 
 .top-\[466px\]{
@@ -824,6 +852,42 @@ video {
 
 .top-\[80px\]{
   top: 80px;
+}
+
+.top-\[750px\]{
+  top: 750px;
+}
+
+.top-\[780px\]{
+  top: 780px;
+}
+
+.top-\[600px\]{
+  top: 600px;
+}
+
+.top-\[800px\]{
+  top: 800px;
+}
+
+.top-\[820px\]{
+  top: 820px;
+}
+
+.top-\[1352px\]{
+  top: 1352px;
+}
+
+.top-\[541px\]{
+  top: 541px;
+}
+
+.top-\[1093px\]{
+  top: 1093px;
+}
+
+.top-\[1645px\]{
+  top: 1645px;
 }
 
 .z-10{
@@ -925,6 +989,14 @@ video {
   margin-top: 10px;
 }
 
+.mt-\[1px\]{
+  margin-top: 1px;
+}
+
+.mt-\[2px\]{
+  margin-top: 2px;
+}
+
 .mt-\[40px\]{
   margin-top: 40px;
 }
@@ -983,6 +1055,10 @@ video {
 
 .h-\[130px\]{
   height: 130px;
+}
+
+.h-\[135px\]{
+  height: 135px;
 }
 
 .h-\[203px\]{
@@ -1319,6 +1395,10 @@ video {
   gap: 18px;
 }
 
+.gap-\[1px\]{
+  gap: 1px;
+}
+
 .gap-\[22px\]{
   gap: 22px;
 }
@@ -1523,6 +1603,11 @@ video {
   padding-right: 0.75rem;
 }
 
+.px-\[12px\]{
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
 .px-\[150px\]{
   padding-left: 150px;
   padding-right: 150px;
@@ -1531,6 +1616,11 @@ video {
 .px-\[30px\]{
   padding-left: 30px;
   padding-right: 30px;
+}
+
+.px-\[32px\]{
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 .py-1\.5{
@@ -1591,6 +1681,10 @@ video {
 
 .text-\[14px\]{
   font-size: 14px;
+}
+
+.text-\[15px\]{
+  font-size: 15px;
 }
 
 .text-\[18px\]{
@@ -1714,6 +1808,11 @@ video {
 .text-\[\#E4E4E4\]{
   --tw-text-opacity: 1;
   color: rgb(228 228 228 / var(--tw-text-opacity));
+}
+
+.text-\[\#FF4646\]{
+  --tw-text-opacity: 1;
+  color: rgb(255 70 70 / var(--tw-text-opacity));
 }
 
 .text-\[\#FFDB00\]{
