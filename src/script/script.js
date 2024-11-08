@@ -36,3 +36,14 @@ $(document).ready(function(){
     $(".all_box > .main_box").eq(index).removeClass("hidden");
   });
 });
+
+//content-1 mobile 스와이퍼
+var swiper = new Swiper(".content-1", {
+  slidesPerView: 3,
+  spaceBetween: 12,
+  loop: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true
+  }
+});
