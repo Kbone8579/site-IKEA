@@ -35,7 +35,7 @@
       <video src="video/1.mp4" autoplay muted loop></video>
       <div class="all-box-bg">
         <div
-          class="top-title-all px-[150px] py-[190px] whitespace-nowrap hidden"
+          class="top-title-all px-[150px] py-[190px] whitespace-nowrap"
         >
           <div class="mb-[20px]">
             <p class="text-[#fff] SANGJUG-font text-[60px]">
@@ -80,9 +80,17 @@
               SKOGSDUVA <span class="text-[#B2FF82]">스콕스두바 컬렉션</span>
             </p>
           </div>
-          <div class="relative w-[650px] h-[350px] bg-white mt-[40px] mx-auto rounded-[15px] overflow-hidden">
-            <img class="w-full h-full object-cover" src="image_colloction/1.jpg" alt="모바일컬렉션이미지1">
-            <div class="mobile-img-bg bg-[#00000005] absolute top-0 z-1">
+          <div
+            class="group/p2 relative w-[650px] h-[350px] bg-white mt-[40px] mx-auto rounded-[15px] overflow-hidden"
+          >
+            <img
+              class="colloction-mobile-img w-full h-full object-cover"
+              src="image_colloction/1.jpg"
+              alt="모바일컬렉션이미지1"
+            />
+            <div
+              class="duration-300 opacity-0 group-hover/p2:opacity-100 colloction-mobile-img-bg absolute top-0 z-50"
+            >
               <div class="flex justify-center">
                 <a href="#">
                   <p
@@ -94,7 +102,6 @@
               </div>
             </div>
           </div>
-          
         </div>
       </div>
       <div class="img-all-box duration-300">

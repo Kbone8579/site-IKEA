@@ -14,16 +14,16 @@
 }
 
 @media screen and (max-width: 960px) {
-  .img-all-box {
-    opacity: 0;
+  .top-title-all-mobile {
+    display: block;
+  }
+  .top-title-all {
+    display: none;
   }
   .img-all-box-2 {
-    opacity: 0;
-  }
-  .bottom-colloction {
-    opacity: 0;
+    display: none;
   }
   .bottom-colloction-2 {
-    opacity: 0;
+    display: none;
   }
 }
