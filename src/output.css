@@ -905,12 +905,12 @@ video {
   margin-bottom: auto;
 }
 
-.mb-\[10px\]{
-  margin-bottom: 10px;
-}
-
 .mb-\[14px\]{
   margin-bottom: 14px;
+}
+
+.mb-\[16px\]{
+  margin-bottom: 16px;
 }
 
 .mb-\[20px\]{
@@ -1007,6 +1007,10 @@ video {
 
 .mt-\[40px\]{
   margin-top: 40px;
+}
+
+.mb-\[28px\]{
+  margin-bottom: 28px;
 }
 
 .box-border{
