@@ -11,9 +11,14 @@
     <!-- script -->
     <script src="script/jqurery.min.js"></script>
     <script defer src="script/script.js"></script>
+
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
   </head>
   <body>
-    <div class="pc ">
+    <div class="pc">
       <div class="title w-[1620px] mx-auto flex h-full items-end justify-between mb-[32px] container">
         <h1 class="font-semibold text-[#4F4F4F] text-[32px]">이달의 베스트 셀러 제품</h1>
         <a href="#" class="text-[#707070] hover:underline">베스트 제품 더보기</a>
@@ -149,140 +154,20 @@
         </div>
       </div>
     </div>
-    <div class="mobile hidden">
-      <div class="title w-[480px] overflow-hidden mx-auto flex h-full items-end justify-between mb-[32px] container">
-        <h1 class="font-semibold text-[#4F4F4F] text-[32px]">이달의 베스트 셀러 제품</h1>
-        <a href="#" class="text-[#707070] hover:underline">베스트 제품 더보기</a>
+    <div class="mobile">
+      <div class="title flex items-end justify-between mb-[10px] con mx-auto whitespace-nowrap">
+        <h1 class="font-semibold text-[#4F4F4F] ml-[24px] text-[24px]">이달의 베스트 셀러 제품</h1>
+        <a href="#" class="text-[#707070] pr-[18px] hover:underline">베스트 제품 더보기</a>
       </div>
-      <div class="gallery-container overflow-hidden w-[480px] mx-auto container">
-        <div class="gallery-item">
-          <div
-            class="filter w-full bg-gradient-to-b from-[#272727ad] to-transparent absolute z-1"
-          ></div>
-          <div class="title flex w-full font-semibold text-[18px] text-center">
-            ÅRSTID
-          </div>
-          <div
-            class="sub-title flex flex-col absolute top-[50%] -translate-y-1/2 left-0 w-full text-center text-white"
-          >
-            <div>
-              <div class="mb-[21px] font-semibold text-[24px]">
-                ÅRSTID 오르스티드
-              </div>
-              <div class="text-[18px] text-[#e7e7e7]">
-                탁상스탠드, 황동/화이트
-              </div>
-            </div>
-          </div>
-          <a
-            href="#"
-            class="link text-white absolute -translate-x-1/2 left-[50%] bottom-[60px] text-[18px] text-[#eaeaea] w-[240px] h-[44px] border-[2px] border hover:border-[3px] hover:font-semibold"
-            ><span class="flex h-full justify-center items-center"
-              >자세히 보러가기</span
-            ></a
-          >
-          <img src="image/best-item_1.png" alt="Crown Jewel" />
+      <div class="swiper content-1">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide bg-red-500">Slide 1</div>
+          <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide">Slide 3</div>
+          <div class="swiper-slide">Slide 4</div>
+          <div class="swiper-slide">Slide 5</div>
         </div>
-  
-        <div class="gallery-item">
-          <div
-            class="filter w-full bg-gradient-to-b from-[#272727ad] to-transparent absolute z-1"
-          ></div>
-          <div class="title flex w-full text-center">NESTTUN</div>
-          <div
-            class="sub-title flex flex-col absolute top-[50%] -translate-y-1/2 left-0 w-full text-center text-white"
-          >
-            <div>
-              <div class="mb-[21px] font-semibold text-[24px]">KALLAX 칼락스</div>
-              <div class="text-[18px] text-[#e7e7e7]">
-                선반유닛, 화이트, 77x147 cm
-              </div>
-            </div>
-          </div>
-          <a
-            href="#"
-            class="link text-white absolute -translate-x-1/2 left-[50%] bottom-[60px] text-[18px] text-[#eaeaea] w-[240px] h-[44px] border-[2px] border hover:border-[3px] hover:font-semibold"
-            ><span class="flex h-full justify-center items-center"
-              >자세히 보러가기</span
-            ></a
-          >
-          <img src="image/best-item_2.png" alt="Exquisite" />
-        </div>
-  
-        <div class="gallery-item">
-          <div
-            class="filter w-full bg-gradient-to-b from-[#272727ad] to-transparent absolute z-1"
-          ></div>
-          <div class="title flex w-full text-center">SKUBB</div>
-          <div
-            class="sub-title flex flex-col absolute top-[50%] -translate-y-1/2 left-0 w-full text-center text-white"
-          >
-            <div>
-              <div class="mb-[21px] font-semibold text-[24px]">SKUBB 스쿠브</div>
-              <div class="text-[18px] text-[#e7e7e7]">
-                수납박스, 화이트, 44x55x19 cm
-              </div>
-            </div>
-          </div>
-          <a
-            href="#"
-            class="link text-white absolute -translate-x-1/2 left-[50%] bottom-[60px] text-[18px] text-[#eaeaea] w-[240px] h-[44px] border-[2px] border hover:border-[3px] hover:font-semibold"
-            ><span class="flex h-full justify-center items-center"
-              >자세히 보러가기</span
-            ></a
-          >
-          <img src="image/best-item_3.png" alt="Posturepedic" />
-        </div>
-  
-        <div class="gallery-item">
-          <div
-            class="filter w-full bg-gradient-to-b from-[#272727ad] to-transparent absolute z-1"
-          ></div>
-          <div class="title flex w-full text-center">TISKEN</div>
-          <div
-            class="sub-title flex flex-col absolute top-[50%] -translate-y-1/2 left-0 w-full text-center text-white"
-          >
-            <div>
-              <div class="mb-[21px] font-semibold text-[24px]">TISKEN 티스켄</div>
-              <div class="text-[18px] text-[#e7e7e7]">흡착식 바구니, 화이트</div>
-            </div>
-          </div>
-          <a
-            href="#"
-            class="link text-white absolute -translate-x-1/2 left-[50%] bottom-[60px] text-[18px] text-[#eaeaea] w-[240px] h-[44px] border-[2px] border hover:border-[3px] hover:font-semibold"
-            ><span class="flex h-full justify-center items-center"
-              >자세히 보러가기</span
-            ></a
-          >
-          <img src="image/best-item_4.png" alt="Sealy Premier" />
-        </div>
-  
-        <div class="gallery-item">
-          <div
-            class="filter w-full bg-gradient-to-b from-[#272727ad] to-transparent absolute z-1"
-          ></div>
-          <div class="title flex w-full text-center">GOSIG GOLDENr</div>
-          <div
-            class="sub-title flex flex-col absolute top-[50%] -translate-y-1/2 left-0 w-full text-center text-white"
-          >
-            <div>
-              <div class="mb-[21px] font-semibold text-[24px]">
-                GOSIG GOLDEN 고시그 골덴
-              </div>
-              <div class="text-[18px] text-[#e7e7e7]">
-                봉제인형, 강아지/골든리트리버, 40cm
-              </div>
-            </div>
-          </div>
-          <a
-            href="#"
-            class="link text-white absolute -translate-x-1/2 left-[50%] bottom-[60px] text-[18px] text-[#eaeaea] w-[240px] h-[44px] border-[2px] border hover:border-[3px] hover:font-semibold"
-            ><span class="flex h-full justify-center items-center"
-              >자세히 보러가기</span
-            ></a
-          >
-          <img src="image/best-item_5.png" alt="Sealy Premier" />
-        </div>
+        <!--   <div class="swiper-pagination"></div> -->
       </div>
     </div>
   </body>
