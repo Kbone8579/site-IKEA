@@ -5,6 +5,7 @@ $(document).ready(function () {
   $(".top-bar").mouseleave(function(){
     $(".top-bar").removeClass("hover");
   });
+  
   const swiper = new Swiper(".swiper", {
     // Optional parameters
     direction: "horizontal",

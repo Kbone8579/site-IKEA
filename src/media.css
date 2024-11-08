@@ -1,6 +1,29 @@
-/* @media screen and (max-width: 1650px) {
+@media screen and (max-width: 1650px) {
   .img-all-box {
-    display: flex;
-    flex-direction: row;
+    opacity: 0;
   }
-} */
+  .img-all-box-2 {
+    opacity: 1;
+  }
+  .bottom-colloction {
+    opacity: 0;
+  }
+  .bottom-colloction-2 {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .img-all-box {
+    opacity: 0;
+  }
+  .img-all-box-2 {
+    opacity: 0;
+  }
+  .bottom-colloction {
+    opacity: 0;
+  }
+  .bottom-colloction-2 {
+    opacity: 0;
+  }
+}
