@@ -1972,14 +1972,15 @@ video {
   transition-duration: 500ms;
 }
 
-/* @media screen and (max-width:960px){
+@media screen and (max-width:960px){
   .content-1-pc {
     display: none;
   }
+
   .content-1-mobile {
     display: block;
   }
-} */
+}
 
 /* reset */
 
@@ -2115,19 +2116,21 @@ li > a:active {
 
 /* content-1 mobile */
 
-/* .con {
+.con {
   max-width: 960px;
 }
-.swiper {
+
+.content-1 .swiper {
   width: 960px;
   height: 480px;
 }
 
-.swiper-wrapper {
+.content-1 .swiper-wrapper {
   margin-left: 24px;
   margin-right: 24px;
 }
-.swiper-slide {
+
+.content-1 .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
@@ -2137,12 +2140,13 @@ li > a:active {
   background-color: #989898;
 }
 
-.swiper-slide img {
+.content-1 .swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
-} */
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 
 .hover\:border-\[2px\]:hover{
   border-width: 2px;
