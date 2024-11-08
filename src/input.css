@@ -4,14 +4,14 @@
 @tailwind components;
 @tailwind utilities;
 
-@media screen and (max-width:960px){
+/* @media screen and (max-width:960px){
   .content-1-pc {
     display: none;
   }
   .content-1-mobile {
     display: block;
   }
-}
+} */
 
 /* reset */
 body {
@@ -132,7 +132,7 @@ li > a:active {
 }
 
 /* content-1 mobile */
-.con {
+/* .con {
   max-width: 960px;
 }
 .swiper {
@@ -159,4 +159,4 @@ li > a:active {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
+} */

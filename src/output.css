@@ -1529,10 +1529,6 @@ video {
   border-color: rgb(250 250 249 / var(--tw-border-opacity));
 }
 
-.bg-\[\#00000005\]{
-  background-color: #00000005;
-}
-
 .bg-\[\#00000071\]{
   background-color: #00000071;
 }
@@ -1976,15 +1972,14 @@ video {
   transition-duration: 500ms;
 }
 
-@media screen and (max-width:960px){
+/* @media screen and (max-width:960px){
   .content-1-pc {
     display: none;
   }
-
   .content-1-mobile {
     display: block;
   }
-}
+} */
 
 /* reset */
 
@@ -2120,10 +2115,9 @@ li > a:active {
 
 /* content-1 mobile */
 
-.con {
+/* .con {
   max-width: 960px;
 }
-
 .swiper {
   width: 960px;
   height: 480px;
@@ -2133,7 +2127,6 @@ li > a:active {
   margin-left: 24px;
   margin-right: 24px;
 }
-
 .swiper-slide {
   text-align: center;
   font-size: 18px;
@@ -2148,9 +2141,8 @@ li > a:active {
   display: block;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
+  object-fit: cover;
+} */
 
 .hover\:border-\[2px\]:hover{
   border-width: 2px;
@@ -2198,10 +2190,6 @@ li > a:active {
   visibility: visible;
 }
 
-.group\/p2:hover .group-hover\/p2\:visible{
-  visibility: visible;
-}
-
 .group\/p1:hover .group-hover\/p1\:font-bold{
   font-weight: 700;
 }
@@ -2215,15 +2203,11 @@ li > a:active {
   color: rgb(0 88 163 / var(--tw-text-opacity));
 }
 
-.group:hover .group-hover\:opacity-100{
-  opacity: 1;
-}
-
 .group\/p2:hover .group-hover\/p2\:opacity-100{
   opacity: 1;
 }
 
-.group\/p1:hover .group-hover\/p1\:opacity-100{
+.group:hover .group-hover\:opacity-100{
   opacity: 1;
 }
 
