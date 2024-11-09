@@ -40,7 +40,7 @@ $(document).ready(function(){
 // content-1 mobile 스와이퍼
 var swiper1 = new Swiper(".swiper1", {
   slidesPerView: 3,
-  spaceBetween: 12,
+  spaceBetween: 16,
   loop: true,
   pagination: {
     // el: ".swiper-pagination",
