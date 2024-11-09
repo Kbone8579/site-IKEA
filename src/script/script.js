@@ -1,5 +1,5 @@
 // swiper
-var swiper2 = new Swiper(".swiper2", {
+var swiper = new Swiper(".swiper", {
   loop: true,
   spaceBetween: 30,
   pagination: {
@@ -32,8 +32,8 @@ $(document).ready(function(){
 
     var index = $(this).parent().index();
 
-    $(".all_box > .main_box").addClass("hidden");
-    $(".all_box > .main_box").eq(index).removeClass("hidden");
+    $(".all_box_pc > .main_box").addClass("hidden");
+    $(".all_box_pc > .main_box").eq(index).removeClass("hidden");
   });
 });
 
