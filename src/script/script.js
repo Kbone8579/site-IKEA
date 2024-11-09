@@ -1,5 +1,5 @@
 // swiper
-var swiper = new Swiper(".swiper2", {
+var swiper2 = new Swiper(".swiper2", {
   loop: true,
   spaceBetween: 30,
   pagination: {
@@ -42,6 +42,17 @@ var swiper1 = new Swiper(".swiper1", {
   slidesPerView: 3,
   spaceBetween: 16,
   loop: true,
+  pagination: {
+    // el: ".swiper-pagination",
+    clickable: true
+  }
+});
+
+// all_box_mobile 스와이퍼
+var swiper3 = new Swiper(".swiper3", {
+  slidesPerView: 2,
+  spaceBetween: 16,
+  // loop: true,
   pagination: {
     // el: ".swiper-pagination",
     clickable: true
