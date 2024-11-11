@@ -13,6 +13,35 @@
   }
 }
 
+/* @media screen and (max-width: 1400px) {
+  .top-bar .menu-box {
+    opacity: 0;
+  }
+  .mobil-top-bar .menu-box {
+    opacity: 1;
+  }
+} */
+
+@media screen and (max-width : 1024px) {
+  .top-bar .menu-box {
+    opacity: 0;
+  }
+  .top-bar-2 {
+    opacity: 1;
+  }
+  /* .top-bar-2 .user-box {
+    margin-right: 150px;
+  } */
+  .ss-text > p:first-child {
+    font-size: 44px;
+    transition: 0.3s;
+  }
+  .ss-text > p:last-child {
+    font-size: 20px;
+    transition: 0.3s;
+  }
+}
+
 @media screen and (max-width: 960px) {
   .top-title-all-mobile {
     display: block;
