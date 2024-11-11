@@ -26,12 +26,6 @@
   .top-bar .menu-box {
     opacity: 0;
   }
-  .top-bar-2 {
-    opacity: 1;
-  }
-  /* .top-bar-2 .user-box {
-    margin-right: 150px;
-  } */
   .ss-text > p:first-child {
     font-size: 44px;
     transition: 0.3s;
