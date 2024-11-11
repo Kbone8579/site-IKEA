@@ -21,6 +21,11 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.swiper-slide-4 {
+  background-image: url(image-slide/banner-4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .swiper-bg {
   position: absolute;
   z-index: 1;
@@ -71,6 +76,7 @@
   gap: 40px;
 }
 
+
 /* 탑바 */
 .top-bar {
   position: fixed;
@@ -113,6 +119,9 @@
 }
 .top-bar:hover .logo::before {
   background-image: url(image-slide/logo-color.png);
+}
+.menu-box {
+  transition: 0.3s;
 }
 .menu-box > ul > li > a {
   position: relative;

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="output.css" />
     <link rel="stylesheet" href="slide.css" />
     <link rel="stylesheet" href="normal.css" />
+    <link rel="stylesheet" href="media.css" />
     <!-- 스와이퍼 연결 -->
     <link
       rel="stylesheet"
@@ -28,13 +29,65 @@
       src="https://kit.fontawesome.com/457d21d0c2.js"
       crossorigin="anonymous"
     ></script>
-
-
   </head>
 
   <body>
     <div class="slider swiper0">
-      <div class="swiper">
+      <div class="swiper swiper-01">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide swiper-slide-1">
+            <div class="swiper-bg"></div>
+            <div class="ss-text">
+              <p class="fc-FFFFFF fw-700 fs-60">
+                IKEA만의 가을맞이 신제품을<br />소개합니다
+              </p>
+              <p class="fc-FFFFFF fw-300 fs-26">
+                쌀쌀한 바람이 불어오는 계절이 찾아왔어요.<br />700여개의 다양한
+                신제품들로 아늑하고 편안한 공간을 연출해 보세요.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide swiper-slide-2">
+            <div class="swiper-bg"></div>
+            <div class="ss-text">
+              <p class="fc-FFFFFF fw-700 fs-60">
+                IKEA가 앞장서는<br />함께 바꿔요, 지구의 미래
+              </p>
+              <p class="fc-FFFFFF fw-300 fs-26">
+                이케아 재난이 놀라운 솔루션을 통해 어떻게 빈곤과 기후변화에
+                <br />대응하고 있는지 알아보세요.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide swiper-slide-3">
+            <div class="swiper-bg"></div>
+            <div class="ss-text">
+              <p class="fc-FFFFFF fw-700 fs-60">
+                IKEA 팝업스토어<br />신세계백화점 스타필드 하남점
+              </p>
+              <p class="fc-FFFFFF fw-300 fs-26">
+                다양한 매력의 이케아 베스트셀러 제품들을 <br />신세계백화점
+                스타필드 하남점에서 만나보세요.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide swiper-slide-4">
+            <div class="swiper-bg"></div>
+            <div class="ss-text">
+              <p class="fc-FFFFFF fw-700 fs-60">
+                지속가능한 라이프스타일을 위한<br />IKEA의 제안
+              </p>
+              <p class="fc-FFFFFF fw-300 fs-26">
+                쓰레기 줄이기, 물 줄이기, 사용중인 제품 관리하기 등은 지구를
+                지켜주는 <br />대표적인 방법들이죠. 일상의 사소한 습관들이 쌓여
+                지속가능한 지구를 만들어 주세요.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="swiper swiper-02">
         <div class="swiper-wrapper">
           <div class="swiper-slide swiper-slide-1">
             <div class="swiper-bg"></div>
@@ -87,16 +140,10 @@
             </div>
           </div>
         </div>
-        <!-- If we need pagination -->
         <div class="swiper-pagination"></div>
-  
-        <!-- If we need navigation buttons -->
-        <!-- <div class="swiper-button-prev"></div> -->
-        <!-- <div class="swiper-button-next"></div> -->
-  
-        <!-- If we need scrollbar -->
-        <!-- <div class="swiper-scrollbar"></div> -->
       </div>
+
+      <!-- 탑바 시작 -->
       <div class="top-bar">
         <div class="contant">
           <div class="logo">
@@ -782,6 +829,39 @@
           </div>
         </div>
       </div>
+      <!-- 탑바 끝 -->
+
+      <!-- 모바일 탑바 시작 -->
+      <div class="top-bar-2">
+        <div class="contant">
+          <div class="logo">
+            <!-- <img src="image-slide/logo.png" alt="로고아이콘" /> -->
+          </div>
+          <div class="flex-1"></div>
+          <div class="user-box">
+            <ul>
+              <li>
+                <a class="mr-8" href="#">
+                  <i class="fs-14 fa-solid fa-magnifying-glass"></i>
+                </a>
+              </li>
+              <li><a class="fs-13 fw-300" href="#">로그인</a></li>
+              <div class="fc-B4B4B4">|</div>
+              <li><a class="fs-13 fw-300" href="#">회원가입</a></li>
+              <div class="fc-B4B4B4">|</div>
+              <li><a class="fs-13 fw-300" href="#">장바구니</a></li>
+              <div class="fc-B4B4B4">|</div>
+              <li><a class="fs-13 fw-300" href="#">마이페이지</a></li>
+              <li>
+                <a class="ml-8" href="#">
+                  <i class="fs-14 fa-solid fa-bars"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- 모바일 탑바 끝 -->
     </div>
   </body>
 </html>
