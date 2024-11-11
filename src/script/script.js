@@ -1,9 +1,9 @@
 // swiper
-var swiper2 = new Swiper(".swiper2", {
+var swiper = new Swiper(".swiper2 .swiper", {
   loop: true,
   spaceBetween: 30,
   pagination: {
-    el: ".swiper-pagination2",
+    el: ".swiper2 .swiper-pagination",
     clickable: true,
   },
 });
@@ -38,23 +38,23 @@ $(document).ready(function(){
 });
 
 // content-1 mobile 스와이퍼
-var swiper1 = new Swiper(".swiper1", {
+var swiper = new Swiper(".swiper1 .swiper", {
   slidesPerView: 3,
   spaceBetween: 16,
   loop: true,
   pagination: {
-    // el: ".swiper-pagination",
+    // el: ".swiper1 .swiper-pagination",
     clickable: true
   }
 });
 
 // all_box_mobile 스와이퍼
-var swiper3 = new Swiper(".swiper3", {
+var swiper = new Swiper(".swiper3 .swiper", {
   slidesPerView: 2,
   spaceBetween: 16,
   // loop: true,
   pagination: {
-    // el: ".swiper-pagination",
+    // el: ".swiper3 .swiper-pagination",
     clickable: true
   }
 });

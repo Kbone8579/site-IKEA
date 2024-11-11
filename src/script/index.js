@@ -6,7 +6,7 @@ $(document).ready(function () {
     $(".top-bar").removeClass("hover");
   });
   
-  const swiper = new Swiper(".swiper", {
+  const swiper = new Swiper(".swiper0 .swiper", {
     // Optional parameters
     direction: "horizontal",
     effect: "fade",
