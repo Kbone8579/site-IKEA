@@ -27,3 +27,7 @@
 .top-title-all-mobile {
   display: none;
 }
+.mobil-coll-all p,
+.mobil-coll-all span {
+  max-width: 960px;
+}
