@@ -135,6 +135,9 @@ li > a:active {
 .con {
   min-width: 961px;
 }
+.content-1 .content-1-mobile .swiper1 {
+  height: 638px;
+}
 .swiper1 {
   width: 960px;
   height: 540px;

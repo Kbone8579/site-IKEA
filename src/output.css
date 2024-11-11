@@ -1345,10 +1345,6 @@ video {
   max-width: 100%;
 }
 
-.flex-1{
-  flex: 1 1 0%;
-}
-
 .shrink{
   flex-shrink: 1;
 }
@@ -2230,6 +2226,10 @@ li > a:active {
 
 .con {
   min-width: 961px;
+}
+
+.content-1 .content-1-mobile .swiper1 {
+  height: 638px;
 }
 
 .swiper1 {
