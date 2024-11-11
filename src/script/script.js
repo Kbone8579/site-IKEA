@@ -1,9 +1,9 @@
 // swiper
-var swiper = new Swiper(".swiper", {
+var swiper2 = new Swiper(".swiper2", {
   loop: true,
   spaceBetween: 30,
   pagination: {
-    el: ".swiper-pagination",
+    el: ".swiper-pagination2",
     clickable: true,
   },
 });
