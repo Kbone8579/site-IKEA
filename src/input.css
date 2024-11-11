@@ -188,7 +188,11 @@ li > a:active {
   object-fit: cover;
 }
 
-/* .HomeFurnishing .swiper {
+.HomeFurnishing .swiper2 .swiper {
   height: 830px;
   min-width: 0px
-} */
+}
+.HomeFurnishing .swiper3 .swiper {
+  height: 500px;
+  min-width: 0px
+}
