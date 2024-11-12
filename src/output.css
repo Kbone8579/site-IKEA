@@ -1009,6 +1009,10 @@ video {
   margin-top: 10px;
 }
 
+.mt-\[150px\]{
+  margin-top: 150px;
+}
+
 .mt-\[1px\]{
   margin-top: 1px;
 }
@@ -1019,14 +1023,6 @@ video {
 
 .mt-\[40px\]{
   margin-top: 40px;
-}
-
-.mt-\[200px\]{
-  margin-top: 200px;
-}
-
-.mt-\[150px\]{
-  margin-top: 150px;
 }
 
 .box-border{
@@ -1773,12 +1769,12 @@ video {
   padding-right: 18px;
 }
 
-.pt-\[30px\]{
-  padding-top: 30px;
-}
-
 .pt-28{
   padding-top: 7rem;
+}
+
+.pt-\[30px\]{
+  padding-top: 30px;
 }
 
 .text-center{

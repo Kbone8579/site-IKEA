@@ -13,18 +13,11 @@
   }
 }
 
-/* @media screen and (max-width: 1400px) {
-  .top-bar .menu-box {
-    opacity: 0;
-  }
-  .mobil-top-bar .menu-box {
-    opacity: 1;
-  }
-} */
 
-@media screen and (max-width : 1024px) {
+/* ---- 탑바 ---- */
+@media screen and (max-width : 1280px) {
   .top-bar .menu-box {
-    opacity: 0;
+    display: none;
   }
   .ss-text > p:first-child {
     font-size: 44px;
@@ -33,6 +26,21 @@
   .ss-text > p:last-child {
     font-size: 20px;
     transition: 0.3s;
+  }
+  .top-bar .contant {
+    margin-left: 70px;
+  margin-right: 70px;
+  }
+}
+
+/* ---- 모바일버전 상단바 ---- */
+@media screen and (max-width: 960px) {
+  .top-bar .contant {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+  .ss-text {
+    display: none;
   }
 }
 
