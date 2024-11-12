@@ -33,28 +33,21 @@
   }
 }
 
-/* ---- 모바일버전 상단바 ---- */
+
 @media screen and (max-width: 960px) {
   .top-bar .contant {
     margin-left: 24px;
     margin-right: 24px;
   }
-  .ss-text {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 960px) {
-  .top-title-all-mobile {
-    display: block;
-  }
-  .top-title-all {
-    display: none;
-  }
-  .img-all-box-2 {
-    display: none;
-  }
+  .ss-text,
+  .swiper-pagination,
+  .top-title-all,
+  .img-all-box-2,
   .bottom-colloction-2 {
     display: none;
+  }
+  .top-title-all-mobile,
+  .ss-text-moblie {
+    display: block;
   }
 }
