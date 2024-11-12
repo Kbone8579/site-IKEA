@@ -13,9 +13,9 @@
     <script defer src="script/script.js"></script>
   </head>
   <body>
-    <footer class="flex overflow-hidden flex-col justify-center w-full mx-auto items-center px-16 py-28 bg-white max-md:px-5 container">
-        <div class="flex flex-wrap items-start w-full max-w-full relative">
-          <section class="flex flex-wrap gap-[160px] items-start min-w-[240px] z-10">
+    <footer class="flex overflow-hidden w-full mx-auto items-center py-28 bg-white">
+        <div class="flex w-full relative">
+          <section class="flex justify-between w-full flex-wrap z-10 px-[150px] ">
             <div class="flex flex-col text-sm leading-none text-neutral-500 w-[230px]">
               <div class="flex flex-col w-48">
                 <h2 class="text-base font-semibold text-zinc-950">IKEA Family</h2>
@@ -105,14 +105,21 @@
                 </a>
               </div>
             </nav>
+            <div class="flex flex-col  shrink justify-between text-xs font-semibold tracking-wide h-[420px] z-10">
+              <button class="flex overflow-hidden gap-2 justify-center items-center self-end border border-solid hover:border-[2px] bg-white bg-opacity-0 border-neutral-600 min-h-[37px] rounded-[100px] text-zinc-600 w-[110px]">
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/c018b506ab964497bb028cda08a25364/6a4dd1944e701cb49abf7d99da3b78e59d02a96f17c24ae90e6c434f97f7f41b?apiKey=c018b506ab964497bb028cda08a25364&" class="object-contain shrink-0 self-stretch my-auto w-6 aspect-square" alt="" />
+                <span class="self-stretch my-auto">국가 변경</span>
+              </button>
+              <p class="mt-80 text-stone-500 flex justify-end">© Inter IKEA Systems B.V. 1999-2024</p>
+            </div>
           </section>
-          <div class="flex flex-col grow shrink justify-between text-xs font-semibold tracking-wide h-[420px] z-10">
+          <!-- <div class="flex flex-col grow shrink justify-between text-xs font-semibold tracking-wide h-[420px] z-10">
             <button class="flex overflow-hidden gap-2 justify-center items-center self-end border border-solid hover:border-[2px] bg-white bg-opacity-0 border-neutral-600 min-h-[37px] rounded-[100px] text-zinc-600 w-[110px]">
               <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/c018b506ab964497bb028cda08a25364/6a4dd1944e701cb49abf7d99da3b78e59d02a96f17c24ae90e6c434f97f7f41b?apiKey=c018b506ab964497bb028cda08a25364&" class="object-contain shrink-0 self-stretch my-auto w-6 aspect-square" alt="" />
               <span class="self-stretch my-auto">국가 변경</span>
             </button>
             <p class="mt-80 text-stone-500 flex justify-end">© Inter IKEA Systems B.V. 1999-2024</p>
-          </div>
+          </div> -->
           <div class="absolute bottom-0 left-0"><img src="image/footer-img_logo.png" alt="푸터 이케아 로고" class="w-[600px] h-[128px]"></div>
           <div class="absolute bottom-0 right-0 "><img src="image/footer-img.png" alt="푸터 이케아 이미지" class="w-[600px] h-[380px]"></div>
         </div>
