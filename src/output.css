@@ -1033,6 +1033,10 @@ video {
   margin-top: 40px;
 }
 
+.mb-\[\]{
+  margin-bottom: ;
+}
+
 .box-border{
   box-sizing: border-box;
 }
@@ -1323,10 +1327,6 @@ video {
 
 .w-full{
   width: 100%;
-}
-
-.w-\[960px\]{
-  width: 960px;
 }
 
 .min-w-\[1450px\]{
@@ -2073,6 +2073,10 @@ video {
 .text-zinc-950{
   --tw-text-opacity: 1;
   color: rgb(9 9 11 / var(--tw-text-opacity));
+}
+
+.text-\[\]{
+  color: ;
 }
 
 .underline{
