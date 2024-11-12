@@ -1021,6 +1021,14 @@ video {
   margin-top: 40px;
 }
 
+.mt-\[200px\]{
+  margin-top: 200px;
+}
+
+.mt-\[150px\]{
+  margin-top: 150px;
+}
+
 .box-border{
   box-sizing: border-box;
 }
@@ -2258,6 +2266,11 @@ li > a:active {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.content-1 .swiper1 .swiper {
+  height: 540px;
+  min-width: 0px
 }
 
 /* all_box_mobile swiper*/

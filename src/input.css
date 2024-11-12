@@ -163,6 +163,10 @@ li > a:active {
   height: 100%;
   object-fit: cover;
 }
+.content-1 .swiper1 .swiper {
+  height: 540px;
+  min-width: 0px
+}
 
 /* all_box_mobile swiper*/
 .swiper3 {
