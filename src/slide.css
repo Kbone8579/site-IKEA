@@ -76,6 +76,26 @@
   gap: 40px;
 }
 
+/* ---- 모바일 텍스트 버전 ---- */
+.ss-text-moblie {
+  position: absolute;
+  top: 335px;
+  left: 150px;
+  z-index: 2;
+  display: none;
+  text-align: center;
+  white-space: nowrap;
+}
+.ss-bt-box {
+  display: flex;
+  
+}
+.ss-bt-box p {
+  padding: 12px 50px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid #fff;
+}
+/* ---- 끝 ---- */
 
 /* 탑바 */
 .top-bar {
