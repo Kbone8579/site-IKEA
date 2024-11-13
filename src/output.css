@@ -905,6 +905,11 @@ video {
   margin-bottom: auto;
 }
 
+.mx-\[10px\]{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .mb-\[10px\]{
   margin-bottom: 10px;
 }
@@ -1765,6 +1770,16 @@ video {
   padding-bottom: 190px;
 }
 
+.px-\[10px\]{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.px-\[px\]{
+  padding-left: px;
+  padding-right: px;
+}
+
 .pb-\[30px\]{
   padding-bottom: 30px;
 }
@@ -2064,6 +2079,10 @@ video {
 .text-zinc-950{
   --tw-text-opacity: 1;
   color: rgb(9 9 11 / var(--tw-text-opacity));
+}
+
+.text-\[\]{
+  color: ;
 }
 
 .underline{

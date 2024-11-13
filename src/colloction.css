@@ -1,3 +1,7 @@
+/* .cursor {
+  position: absolute;
+  z-index: 10;
+} */
 .coll-all-box {
   background-color: gray;
   width: 100%;

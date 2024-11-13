@@ -5,6 +5,15 @@ $(document).ready(function () {
   $(".top-bar").mouseleave(function(){
     $(".top-bar").removeClass("hover");
   });
+
+//   document.addEventListener('mousemove', (e) => {
+//     let mouseX = e.pageX + 10;
+//     let mouseY = e.pageY + 10; 
+
+//     let cursor = document.querySelector('.cursor');
+//     cursor.style.left = mouseX + 'px';
+//     cursor.style.top = mouseY + 'px';
+// })
   
   const swiper = new Swiper(".swiper0 .swiper", {
     // Optional parameters
