@@ -1033,10 +1033,6 @@ video {
   margin-top: 40px;
 }
 
-.mb-\[\]{
-  margin-bottom: ;
-}
-
 .box-border{
   box-sizing: border-box;
 }
@@ -1739,11 +1735,6 @@ video {
   padding-bottom: 4rem;
 }
 
-.py-28{
-  padding-top: 7rem;
-  padding-bottom: 7rem;
-}
-
 .py-4{
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -1868,6 +1859,10 @@ video {
   font-size: 40px;
 }
 
+.text-\[45px\]{
+  font-size: 45px;
+}
+
 .text-\[48px\]{
   font-size: 48px;
 }
@@ -1899,10 +1894,6 @@ video {
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-\[45px\]{
-  font-size: 45px;
 }
 
 .font-bold{
@@ -2073,10 +2064,6 @@ video {
 .text-zinc-950{
   --tw-text-opacity: 1;
   color: rgb(9 9 11 / var(--tw-text-opacity));
-}
-
-.text-\[\]{
-  color: ;
 }
 
 .underline{
