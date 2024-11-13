@@ -1,3 +1,5 @@
+SubTextBox__init();
+
 // swiper
 var swiper = new Swiper(".swiper2 .swiper", {
   loop: true,
@@ -58,3 +60,20 @@ var swiper = new Swiper(".swiper3 .swiper", {
     clickable: true
   }
 });
+
+// footer mobile
+function SubTextBox__init() {
+  $(".sub-text-box ul > li").click(function () {
+    let $this = $(this);
+
+    if ($this.hasClass("active")) {
+      $this.removeClass("active");
+    } else {
+      $this.addClass("active");
+    }
+  });
+
+  $(".sub-text-box ul").click(function () {
+    return false;
+  });
+}

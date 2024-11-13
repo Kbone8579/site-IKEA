@@ -5,10 +5,10 @@
 @tailwind utilities;
 
 @media screen and (max-width:960px){
-  .content-1-pc, .all_box_pc {
+  .content-1-pc, .all_box_pc, .footer-pc  {
     display: none;
   }
-  .content-1-mobile, .all_box_mobile {
+  .content-1-mobile, .all_box_mobile, .footer-mobile {
     display: block;
   }
 }
@@ -202,4 +202,100 @@ li > a:active {
 .HomeFurnishing .swiper3 .swiper {
   height: 500px;
   min-width: 0px
+}
+
+/* footer mobile */
+.main-box {
+  max-width: 960px;
+  min-height: 800px;
+  height: full;
+}
+
+.main-text-box {
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+.bar-1 {
+  border-bottom: 1px solid #d5d5d5;
+}
+
+.icon-box {
+  margin-left:auto;
+  cursor:pointer;
+}
+
+.sub-icon-box-1 {
+  color: #5f5f5f;
+  background-color: #ffffff;
+  border: 1px solid #4e4e4e;
+  width: 110px;
+  height: 37px;
+  font-size: smaller;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+}
+
+.sub-icon-box-2 > li {
+  color: #666666;
+  background-color: #ffffff;
+  border: 1px solid #a9a9a9;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+}
+
+.text-box-1 > a {
+  display: flex;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.text-box-1 > a > span {
+  color: #626262;
+  font-weight: 600;
+}
+
+.text-box-3 {
+  padding-bottom: 30px;
+  padding-top: 24px;
+  color: #737373;
+  font-size: small;
+  font-weight: normal;
+}
+
+.sub-text-box > ul ul {
+  display: none;
+}
+
+.sub-text-box ul > li.active > ul {
+  display: block;
+}
+
+.text-box-1 > a::after {
+  font-family: "Font Awesome 5 Free";
+  content: "\f078";
+  font-weight: 900;
+}
+
+.text-box-1.active > a::after {
+  content: "\f077";
+}
+
+.img-1 {
+  margin-top: 220px;
+  width: 380px;
+  height: 91px;
+}
+
+.img-2 {
+  margin-left: 50px;
+  margin-top: 10px;
+  width: 525px;
+  height: 300px;
 }
