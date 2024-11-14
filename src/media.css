@@ -34,6 +34,9 @@
     flex-wrap: wrap;
     gap: 0;
   }
+  .all-box {
+    height: 841px;
+  }
 }
 
 @media screen and (max-width: 960px) {
@@ -55,5 +58,8 @@
   .bt-text-box .bt-list {
     height: 200px;
     gap: 0;
+  }
+  .all-box {
+    height: 655px;
   }
 }

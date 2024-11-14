@@ -1147,6 +1147,14 @@ video {
   height: 100%;
 }
 
+.h-\[700px\]{
+  height: 700px;
+}
+
+.h-\[841px\]{
+  height: 841px;
+}
+
 .min-h-\[1px\]{
   min-height: 1px;
 }
@@ -1827,12 +1835,20 @@ video {
   font-size: 15px;
 }
 
+.text-\[16px\]{
+  font-size: 16px;
+}
+
 .text-\[18px\]{
   font-size: 18px;
 }
 
 .text-\[20px\]{
   font-size: 20px;
+}
+
+.text-\[22px\]{
+  font-size: 22px;
 }
 
 .text-\[24px\]{
@@ -1896,12 +1912,12 @@ video {
   line-height: 1rem;
 }
 
-.text-\[16px\]{
-  font-size: 16px;
+.font-\[400\]{
+  font-weight: 400;
 }
 
-.text-\[22px\]{
-  font-size: 22px;
+.font-\[600\]{
+  font-weight: 600;
 }
 
 .font-bold{
@@ -1921,14 +1937,6 @@ video {
 }
 
 .font-semibold{
-  font-weight: 600;
-}
-
-.font-\[400\]{
-  font-weight: 400;
-}
-
-.font-\[600\]{
   font-weight: 600;
 }
 
@@ -1956,6 +1964,11 @@ video {
   letter-spacing: 0.025em;
 }
 
+.text-\[\#1C1B1F\]{
+  --tw-text-opacity: 1;
+  color: rgb(28 27 31 / var(--tw-text-opacity));
+}
+
 .text-\[\#323232\]{
   --tw-text-opacity: 1;
   color: rgb(50 50 50 / var(--tw-text-opacity));
@@ -1969,6 +1982,11 @@ video {
 .text-\[\#454545\]{
   --tw-text-opacity: 1;
   color: rgb(69 69 69 / var(--tw-text-opacity));
+}
+
+.text-\[\#606060\]{
+  --tw-text-opacity: 1;
+  color: rgb(96 96 96 / var(--tw-text-opacity));
 }
 
 .text-\[\#656565\]{
@@ -1994,6 +2012,11 @@ video {
 .text-\[\#ACACAC\]{
   --tw-text-opacity: 1;
   color: rgb(172 172 172 / var(--tw-text-opacity));
+}
+
+.text-\[\#ADADAD\]{
+  --tw-text-opacity: 1;
+  color: rgb(173 173 173 / var(--tw-text-opacity));
 }
 
 .text-\[\#B2FF82\]{
@@ -2051,10 +2074,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-\[\]{
-  color: ;
-}
-
 .text-black{
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -2098,21 +2117,6 @@ video {
 .text-zinc-950{
   --tw-text-opacity: 1;
   color: rgb(9 9 11 / var(--tw-text-opacity));
-}
-
-.text-\[\#1C1B1F\]{
-  --tw-text-opacity: 1;
-  color: rgb(28 27 31 / var(--tw-text-opacity));
-}
-
-.text-\[\#606060\]{
-  --tw-text-opacity: 1;
-  color: rgb(96 96 96 / var(--tw-text-opacity));
-}
-
-.text-\[\#ADADAD\]{
-  --tw-text-opacity: 1;
-  color: rgb(173 173 173 / var(--tw-text-opacity));
 }
 
 .underline{
