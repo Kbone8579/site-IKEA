@@ -983,6 +983,14 @@ video {
   margin-top: 150px;
 }
 
+.mt-\[160px\]{
+  margin-top: 160px;
+}
+
+.mt-\[180px\]{
+  margin-top: 180px;
+}
+
 .mt-\[1px\]{
   margin-top: 1px;
 }
@@ -1732,11 +1740,6 @@ video {
   padding-bottom: 1rem;
 }
 
-.py-\[120px\]{
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
 .py-\[13px\]{
   padding-top: 13px;
   padding-bottom: 13px;
@@ -2451,17 +2454,12 @@ li > a:active {
 
 /* rolling */
 
-#wrap {
-  width: 100%;
-  overflow: hidden;
-}
-
 .wrap-box {
   display: flex;
-  width: 120%;
+  width: 100%;
   overflow: hidden;
   background-color: rgba(0, 0, 0, 0);
-  transform: translate(-60px) rotate(0);
+  transform: translate(0) rotate(0);
 }
 
 .wrap-box:nth-child(2) {

@@ -300,16 +300,12 @@ li > a:active {
   height: 300px;
 }
 /* rolling */
-#wrap {
-  width: 100%;
-  overflow: hidden;
-}
 .wrap-box {
   display: flex;
-  width: 120%;
+  width: 100%;
   overflow: hidden;
   background-color: rgba(0, 0, 0, 0);
-  transform: translate(-60px) rotate(0);
+  transform: translate(0) rotate(0);
 }
 .wrap-box:nth-child(2) {
   background-color: white;
