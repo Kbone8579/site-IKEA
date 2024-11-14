@@ -1,47 +1,125 @@
+.all-box {
+  white-space: nowrap;
+}
 .top-title {
   padding: 12px 0;
-  border-bottom: 1.8px solid #C1C1C1;
-  display: flex; align-items: center;
+  border-bottom: 1.8px solid #c1c1c1;
+  display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 .bt-text-box {
   display: flex;
-  height: 262px; 
+  height: 262px;
 }
 .bt-list {
   height: 262px;
   width: 100%;
+  transition: all 0.5s;
+  position: relative;
 }
 .bt-list-1 {
-  background-color: #d5d5d5;
-  display: flex; flex-direction: column; justify-content: center;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding-left: 50px;
   gap: 45px;
+}
+.bt-list-2,
+.bt-list-3 {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 50px;
+  gap: 25px;
 }
 .bt-list-1:hover {
   background-image: url(../src/image_colloction/bt-coll-1.png);
 }
-.bt-list-1:hover .text-box > p {
-  color: #FFBD1B;
+.bt-list-1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../src/image_colloction/bt-coll-1.png);
+  opacity: 0;
+  transition: opacity 0.5s ease;
 }
-.bt-list-1:hover .text-box > span {
+.bt-list-1:hover::before {
+  opacity: 1;
+}
+.bt-list-2:hover {
+  background-image: url(../src/image_colloction/bt-coll-2.png);
+}
+.bt-list-2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../src/image_colloction/bt-coll-2.png);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.bt-list-1:hover::before {
+  opacity: 1;
+}
+.bt-list-3:hover {
+  background-image: url(../src/image_colloction/bt-coll-3.png);
+}
+.bt-list-3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../src/image_colloction/bt-coll-3.png);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.bt-list-1:hover::before {
+  opacity: 1;
+}
+.bt-list-1:hover .text-box > p {
+  color: #ffbd1b;
+}
+.bt-list-2:hover .text-box > p {
+  color: #ff7e7e;
+}
+.bt-list-3:hover .text-box > p {
+  color: #ff3e99;
+}
+.bt-list-1:hover .text-box > span,
+.bt-list-2:hover .text-box > span,
+.bt-list-3:hover .text-box > span {
   color: #fff;
 }
-.bt-list-2 {
-  background-color: #ababab;
-}
-.bt-list-3 {
-  background-color: #7d7d7d;
-}
-.next-icon {
-  width: 38px; height: 38px;
+.next-icon-1,
+.next-icon-2,
+.next-icon-3 {
+  width: 38px;
+  height: 38px;
   background-color: #fff;
   border-radius: 100px;
-  box-shadow: 10px 10px 10px #00000011;
+  box-shadow: 1px 1px 20px #00000022;
 }
-.next-icon:hover {
-  background-color: #FFBD1B;
+.next-icon-1:hover {
+  background-color: #ffbd1b;
 }
-.next-icon:hover > .fa-arrow-right {
+.next-icon-2:hover {
+  background-color: #ff7e7e;
+}
+.next-icon-3:hover {
+  background-color: #ff3e99;
+}
+.next-icon-1:hover > .fa-arrow-right,
+.next-icon-2:hover > .fa-arrow-right,
+.next-icon-3:hover > .fa-arrow-right {
   color: #fff;
 }
