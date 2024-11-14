@@ -299,3 +299,58 @@ li > a:active {
   width: 525px;
   height: 300px;
 }
+/*  */
+#wrap {
+  width: 100%;
+  overflow: hidden;
+}
+.wrap-box {
+  display: flex;
+  width: 120%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.2);
+  transform: translate(-60px) rotate(0);
+}
+.wrap-box:nth-child(2) {
+  background-color: white;
+}
+.rolling-list {
+  display: flex;
+  flex-shrink: 0;
+}
+.list {
+  margin: 0 6px;
+  font-size: 180px;
+  color: transparent;
+  -webkit-text-stroke: #b2ff82 6px;
+}
+
+@keyframes rolling1 {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-100%);
+  }
+  50.01% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes rolling2 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+}
+
+.rolling-list.original {
+  animation: rolling1 120s linear infinite;
+}
+.rolling-list.clone {
+  animation: rolling2 120s linear infinite;
+}
