@@ -299,7 +299,7 @@ li > a:active {
   width: 525px;
   height: 300px;
 }
-/*  */
+/* rolling */
 #wrap {
   width: 100%;
   overflow: hidden;
@@ -308,7 +308,7 @@ li > a:active {
   display: flex;
   width: 120%;
   overflow: hidden;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0);
   transform: translate(-60px) rotate(0);
 }
 .wrap-box:nth-child(2) {
@@ -320,9 +320,11 @@ li > a:active {
 }
 .list {
   margin: 0 6px;
-  font-size: 180px;
+  font-size: 240px;
   color: transparent;
-  -webkit-text-stroke: #b2ff82 6px;
+  color: #b2ff8222;
+  font-weight: 600;
+  /* -webkit-text-stroke: #b2ff8244 6px; */
 }
 
 @keyframes rolling1 {
