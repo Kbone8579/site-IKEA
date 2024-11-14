@@ -859,6 +859,11 @@ video {
   margin-bottom: auto;
 }
 
+.mx-\[20px\]{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 .mb-\[10px\]{
   margin-bottom: 10px;
 }
@@ -1145,14 +1150,6 @@ video {
 
 .h-full{
   height: 100%;
-}
-
-.h-\[700px\]{
-  height: 700px;
-}
-
-.h-\[841px\]{
-  height: 841px;
 }
 
 .min-h-\[1px\]{
@@ -1910,6 +1907,10 @@ video {
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-\[28px\]{
+  font-size: 28px;
 }
 
 .font-\[400\]{
