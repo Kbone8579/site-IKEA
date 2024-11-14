@@ -2100,10 +2100,6 @@ video {
   color: rgb(9 9 11 / var(--tw-text-opacity));
 }
 
-<<<<<<< HEAD
-.text-\[\]{
-  color: ;
-=======
 .text-\[\#1C1B1F\]{
   --tw-text-opacity: 1;
   color: rgb(28 27 31 / var(--tw-text-opacity));
@@ -2117,7 +2113,6 @@ video {
 .text-\[\#ADADAD\]{
   --tw-text-opacity: 1;
   color: rgb(173 173 173 / var(--tw-text-opacity));
->>>>>>> 9e888589cd199fa9066ca024fe7501817ac1f7b3
 }
 
 .underline{
