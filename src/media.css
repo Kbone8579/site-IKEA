@@ -13,9 +13,8 @@
   }
 }
 
-
 /* ---- 탑바 ---- */
-@media screen and (max-width : 1280px) {
+@media screen and (max-width: 1280px) {
   .top-bar .menu-box {
     display: none;
   }
@@ -29,10 +28,13 @@
   }
   .top-bar .contant {
     margin-left: 70px;
-  margin-right: 70px;
+    margin-right: 70px;
+  }
+  .bt-text-box {
+    flex-wrap: wrap;
+    gap: 0;
   }
 }
-
 
 @media screen and (max-width: 960px) {
   .top-bar .contant {
@@ -49,5 +51,9 @@
   .top-title-all-mobile,
   .ss-text-moblie {
     display: block;
+  }
+  .bt-text-box .bt-list {
+    height: 200px;
+    gap: 0;
   }
 }
