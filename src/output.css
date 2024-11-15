@@ -556,6 +556,52 @@ video {
   display: none;
 }
 
+.container{
+  width: 100%;
+}
+
+@media (min-width: 640px){
+  .container{
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px){
+  .container{
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px){
+  .container{
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px){
+  .container{
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px){
+  .container{
+    max-width: 1536px;
+  }
+}
+
+@media (min-width: 1600px){
+  .container{
+    max-width: 1600px;
+  }
+}
+
+@media (min-width: 1920px){
+  .container{
+    max-width: 1920px;
+  }
+}
+
 .visible{
   visibility: visible;
 }
@@ -790,6 +836,10 @@ video {
 
 .top-\[230px\]{
   top: 230px;
+}
+
+.top-\[259px\]{
+  top: 259px;
 }
 
 .top-\[280px\]{
@@ -1777,6 +1827,10 @@ video {
   padding-bottom: 30px;
 }
 
+.pl-10{
+  padding-left: 2.5rem;
+}
+
 .pl-\[30px\]{
   padding-left: 30px;
 }
@@ -1787,6 +1841,10 @@ video {
 
 .pr-\[18px\]{
   padding-right: 18px;
+}
+
+.pt-10{
+  padding-top: 2.5rem;
 }
 
 .pt-28{
@@ -1813,6 +1871,11 @@ video {
 .text-4xl{
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.text-6xl{
+  font-size: 3.75rem;
+  line-height: 1;
 }
 
 .text-\[12px\]{
@@ -2005,6 +2068,11 @@ video {
   color: rgb(134 142 150 / var(--tw-text-opacity, 1));
 }
 
+.text-\[\#9f9f9f\]{
+  --tw-text-opacity: 1;
+  color: rgb(159 159 159 / var(--tw-text-opacity, 1));
+}
+
 .text-\[\#ACACAC\]{
   --tw-text-opacity: 1;
   color: rgb(172 172 172 / var(--tw-text-opacity, 1));
@@ -2013,6 +2081,11 @@ video {
 .text-\[\#ADADAD\]{
   --tw-text-opacity: 1;
   color: rgb(173 173 173 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#AFAFAF\]{
+  --tw-text-opacity: 1;
+  color: rgb(175 175 175 / var(--tw-text-opacity, 1));
 }
 
 .text-\[\#B2FF82\]{
@@ -2547,6 +2620,285 @@ li > a:active {
   animation: rolling2 120s linear infinite;
 }
 
+/* ---- 배너 ---- */
+
+.all-wrap {
+  /* border: 1px solid red; */
+  margin-top: 25px;
+}
+
+.con {
+  max-width: 1620px;
+  /* border: 1px solid orange; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner > ul > li {
+  display: none;
+  position: relative;
+}
+
+.banner > ul > li.active {
+  display: block;
+}
+
+.swiper-box-1 .swiper {
+  max-width: 1620px;
+  height: 441px;
+}
+
+.banner-abt-box {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 437px;
+  height: 441px;
+}
+
+/* ---- 탭 상단 ---- */
+
+.tab-head {
+  height: 32px;
+  margin-top: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.tab-head > ul {
+  display: flex;
+  gap: 30px;
+}
+
+.tab-head a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ececec;
+  border: 2px solid #ececec;
+  width: 84px;
+  height: 32px;
+  border-radius: 100px;
+}
+
+.tab-head > ul > li.active a {
+  background-color: white;
+  border-color: black;
+}
+
+/* ---- 탭 바디/슬라이드 이미지 ---- */
+
+.tab-body {
+  max-width: 1620px;
+  margin-top: 24px;
+}
+
+.tab-body > ul > li {
+  display: none;
+  position: relative;
+}
+
+.tab-body > ul > li.active {
+  display: block;
+}
+
+.tab-body-img-list {
+  /* border: 1px solid red; */
+}
+
+.tab-body-swiper {
+  height: 344px;
+}
+
+/* 이미지 스타일 */
+
+.tab-body > ul > li .tab-body-swiper .swiper-wrapper .swiper-slide a img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* 모바일 이미지 스타일 */
+
+.tab-body-mobile
+  > ul
+  > li
+  .tab-mobile-swiper
+  .swiper-wrapper
+  .swiper-slide
+  a
+  img {
+  width: 263px;
+  height: 352px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.tab-body-mobile > ul > li .tab-mobile-swiper {
+  margin-left: 24px;
+}
+
+.tab-mobile-swiper .swiper-wrapper .swiper-slide {
+  width: 263px;
+}
+
+/* box-bg 초기 상태: height 0으로 설정 */
+
+.box-bg {
+  /* box-sizing: border-box; */
+  /* border-top: 3px solid white; */
+  overflow: hidden;
+  /* box-sizing: border-box; */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* 반투명 배경 */
+  width: 100%;
+  height: 0;
+  /* 초기 상태에서는 숨겨짐 */
+  transition: height 0.5s ease-in-out;
+  /* height 변화에 애니메이션 효과 추가 */
+}
+
+.box-bg > .top-white {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  top: 0;
+  left: 0;
+}
+
+/* 호버 시 box-bg가 위로 슬라이드됨 */
+
+.swiper-slide:hover .box-bg {
+  height: 30%;
+  /* 호버 시 box-bg가 전체 슬라이드 영역을 덮도록 확장 */
+}
+
+/* 각 텍스트의 위치 설정 */
+
+.box-bg > .brand {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+}
+
+.box-bg > .name {
+  position: absolute;
+  top: 35px;
+  left: 10px;
+  color: #afafaf;
+}
+
+.box-bg > .price {
+  position: absolute;
+  top: 60px;
+  left: 10px;
+  color: white;
+}
+
+.box-bg-2 {
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* 반투명 배경 */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* Flexbox로 가운데 정렬 */
+  align-items: center;
+  /* 수직 가운데 정렬 */
+  justify-content: center;
+  /* 수평 가운데 정렬 */
+}
+
+.flus-menu {
+  font-size: 24px;
+  color: white;
+  /* 텍스트 색상 흰색 */
+  text-decoration: none;
+  /* 기본 언더라인 제거 */
+}
+
+.box-bg-2:hover .flus-menu {
+  text-decoration: underline;
+  /* 기본 언더라인을 텍스트에 추가 */
+}
+
+/* 오버레이 */
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* 반투명 배경 */
+  display: flex;
+  justify-content: center;
+  /* 수평 중앙 정렬 */
+  align-items: center;
+  /* 수직 중앙 정렬 */
+  opacity: 0;
+  /* 기본적으로 숨김 */
+  transition: opacity 0.3s ease-in-out;
+}
+
+.overlay-text {
+  color: white;
+  /* 텍스트 색상 */
+  font-size: 20px;
+  /* 텍스트 크기 */
+  text-align: center;
+  /* 텍스트 중앙 정렬 */
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+  /* 이미지 호버 시 오버레이 나타나기 */
+}
+
+/* 모바일 상단 텍스트 */
+
+.mobile-top-text {
+  display: flex;
+  /* border: 1px solid #000; */
+  margin-left: 24px;
+  margin-bottom: 20px;
+}
+
+.mobile-top-text > span {
+  font-size: 24px;
+  font-weight: bold;
+  /* border: 1px solid red; */
+}
+
+.swiper-slide-blank {
+  display: none !important;
+}
+
 .hover\:border-\[2px\]:hover{
   border-width: 2px;
 }
@@ -2643,5 +2995,19 @@ li > a:active {
 
   .max-md\:max-w-full{
     max-width: 100%;
+  }
+}
+
+@media (min-width: 768px){
+  .md\:visible{
+    visibility: visible;
+  }
+
+  .md\:block{
+    display: block;
+  }
+
+  .md\:hidden{
+    display: none;
   }
 }
