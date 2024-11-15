@@ -1,19 +1,30 @@
 $(document).ready(function () {
-  $(".top-bar").mouseenter(function(){
-    $(".top-bar").addClass("hover");
-  });
-  $(".top-bar").mouseleave(function(){
-    $(".top-bar").removeClass("hover");
-  });
 
-//   document.addEventListener('mousemove', (e) => {
-//     let mouseX = e.pageX + 10;
-//     let mouseY = e.pageY + 10; 
+  // $(window).scroll(function(){
+  //   var scroll = $(window).scrollTop();
+  //   if (scroll > 920) {
+  //     $(".top-bar").addClass("active");
+  //   }
+  //   else{
+  //     $(".top-bar").Class("active");
+  //   }
+  // })
 
-//     let cursor = document.querySelector('.cursor');
-//     cursor.style.left = mouseX + 'px';
-//     cursor.style.top = mouseY + 'px';
-// })
+  let preScroll = 0;
+
+  window.addEventListener('scroll', function(){
+    let currentScroll = window.scrollY
+
+    if (currentScroll > preScroll){
+      document.querySelector('.top-bar').classList.remove('fixed');
+    } else {
+      document.querySelector('.top-bar').classList.add('fixed');
+    }
+
+    preScroll = currentScroll;
+  })
+
+
   
   const swiper = new Swiper(".swiper0 .swiper", {
     // Optional parameters
