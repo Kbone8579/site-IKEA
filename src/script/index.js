@@ -23,7 +23,7 @@ $(document).ready(function () {
 
     // If we need pagination
     pagination: {
-      el: ".swiper-pagination",
+      el: ".swiper-pagination1",
       type: "custom",
       renderCustom: function (swiper, current, total) {
         const fillPer = (current / total) * 100;
