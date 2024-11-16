@@ -39,6 +39,18 @@
   }
 }
 
+@media screen and (max-width: 1080px) {
+  .tab-body-mobile,
+  .mobile-top-text > span {
+    display: block;
+  }
+  .tab-body,
+  .tab-head,
+  .banner {
+    display: none;
+  }
+
+}
 @media screen and (max-width: 960px) {
   .top-bar .contant {
     margin-left: 24px;

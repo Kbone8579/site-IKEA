@@ -899,6 +899,11 @@ video {
   margin-right: 150px;
 }
 
+.mx-\[24px\]{
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -1145,6 +1150,10 @@ video {
   height: 30px;
 }
 
+.h-\[344px\]{
+  height: 344px;
+}
+
 .h-\[34px\]{
   height: 34px;
 }
@@ -1193,6 +1202,10 @@ video {
   height: 80px;
 }
 
+.h-\[865px\]{
+  height: 865px;
+}
+
 .h-\[8px\]{
   height: 8px;
 }
@@ -1235,6 +1248,10 @@ video {
 
 .w-6{
   width: 1.5rem;
+}
+
+.w-\[100\%\]{
+  width: 100%;
 }
 
 .w-\[101px\]{
@@ -2627,13 +2644,6 @@ li > a:active {
   margin-top: 25px;
 }
 
-.con {
-  max-width: 1620px;
-  /* border: 1px solid orange; */
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .banner > ul > li {
   display: none;
   position: relative;
@@ -2662,15 +2672,13 @@ li > a:active {
 .tab-head {
   height: 32px;
   margin-top: 24px;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
   justify-content: center;
 }
 
 .tab-head > ul {
   display: flex;
-  gap: 30px;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .tab-head a {
@@ -2732,18 +2740,14 @@ li > a:active {
   .swiper-slide
   a
   img {
-  width: 263px;
-  height: 352px;
+  width: 100%;
+  height: 400px;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
 .tab-body-mobile > ul > li .tab-mobile-swiper {
   margin-left: 24px;
-}
-
-.tab-mobile-swiper .swiper-wrapper .swiper-slide {
-  width: 263px;
 }
 
 /* box-bg 초기 상태: height 0으로 설정 */
@@ -2761,7 +2765,7 @@ li > a:active {
   width: 100%;
   height: 0;
   /* 초기 상태에서는 숨겨짐 */
-  transition: height 0.5s ease-in-out;
+  transition: height 0.3s ease-in-out;
   /* height 변화에 애니메이션 효과 추가 */
 }
 
@@ -2999,15 +3003,7 @@ li > a:active {
 }
 
 @media (min-width: 768px){
-  .md\:visible{
-    visibility: visible;
-  }
-
   .md\:block{
     display: block;
-  }
-
-  .md\:hidden{
-    display: none;
   }
 }

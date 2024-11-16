@@ -109,7 +109,7 @@ $(document).ready(function () {
     direction: "horizontal",
     loop: true,
     slidesPerView: 2.5, // 한 번에 보일 슬라이드 수
-    spaceBetween: 10, // 슬라이드 사이의 간격
+    spaceBetween: 16, // 슬라이드 사이의 간격
     slidesPerGroup: 2,
     scrollbar: {
       // el: ".swiper-scrollbar",
