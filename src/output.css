@@ -1202,10 +1202,6 @@ video {
   height: 80px;
 }
 
-.h-\[865px\]{
-  height: 865px;
-}
-
 .h-\[8px\]{
   height: 8px;
 }
@@ -2717,7 +2713,7 @@ li > a:active {
   /* border: 1px solid red; */
 }
 
-.tab-body-swiper {
+.tab-body-img-list .swiper {
   height: 344px;
 }
 

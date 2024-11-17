@@ -424,9 +424,9 @@ li > a:active {
   /* border: 1px solid red; */
 }
 
-.tab-body-swiper {
+
+.tab-body-img-list .swiper {
   height: 344px;
-  
 }
 
 /* 이미지 스타일 */
