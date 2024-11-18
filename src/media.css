@@ -71,7 +71,8 @@
   .swiper-pagination,
   .top-title-all,
   .img-all-box-2,
-  .bottom-colloction-2 {
+  .bottom-colloction-2, 
+  .swiper-pagination1 {
     display: none;
   }
   .top-title-all-mobile,
