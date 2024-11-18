@@ -1066,6 +1066,30 @@ video {
   margin-top: 40px;
 }
 
+.mb-\[60px\]{
+  margin-bottom: 60px;
+}
+
+.mr-\[20px\]{
+  margin-right: 20px;
+}
+
+.mt-\[240px\]{
+  margin-top: 240px;
+}
+
+.mt-\[300px\]{
+  margin-top: 300px;
+}
+
+.mt-\[200px\]{
+  margin-top: 200px;
+}
+
+.mb-\[70px\]{
+  margin-bottom: 70px;
+}
+
 .box-border{
   box-sizing: border-box;
 }
@@ -1286,10 +1310,6 @@ video {
   width: 153px;
 }
 
-.w-\[1620px\]{
-  width: 1620px;
-}
-
 .w-\[174px\]{
   width: 174px;
 }
@@ -1372,6 +1392,10 @@ video {
 
 .w-full{
   width: 100%;
+}
+
+.w-\[375px\]{
+  width: 375px;
 }
 
 .min-w-\[1450px\]{
@@ -1832,6 +1856,26 @@ video {
   padding-bottom: 30px;
 }
 
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.px-5{
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.px-6{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.px-7{
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
 .pb-\[18px\]{
   padding-bottom: 18px;
 }
@@ -1982,6 +2026,10 @@ video {
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-\[56px\]{
+  font-size: 56px;
 }
 
 .font-\[400\]{
@@ -2715,6 +2763,10 @@ li > a:active {
 
 .tab-body-img-list .swiper {
   height: 344px;
+}
+
+.tab-mobile-img-list .swiper {
+  height: 400px;
 }
 
 /* 이미지 스타일 */

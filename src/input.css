@@ -428,7 +428,9 @@ li > a:active {
 .tab-body-img-list .swiper {
   height: 344px;
 }
-
+.tab-mobile-img-list .swiper {
+  height: 400px;
+}
 /* 이미지 스타일 */
 .tab-body > ul > li .tab-body-swiper .swiper-wrapper .swiper-slide a img {
   width: 100%;
