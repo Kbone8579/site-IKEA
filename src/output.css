@@ -838,10 +838,6 @@ video {
   top: 230px;
 }
 
-.top-\[259px\]{
-  top: 259px;
-}
-
 .top-\[280px\]{
   top: 280px;
 }
@@ -852,6 +848,14 @@ video {
 
 .top-\[300px\]{
   top: 300px;
+}
+
+.top-\[320px\]{
+  top: 320px;
+}
+
+.top-\[350px\]{
+  top: 350px;
 }
 
 .top-\[50\%\]{
@@ -946,6 +950,10 @@ video {
   margin-bottom: 32px;
 }
 
+.mb-\[36px\]{
+  margin-bottom: 36px;
+}
+
 .mb-\[40px\]{
   margin-bottom: 40px;
 }
@@ -956,14 +964,6 @@ video {
 
 .mb-\[50px\]{
   margin-bottom: 50px;
-}
-
-.mb-\[60px\]{
-  margin-bottom: 60px;
-}
-
-.mb-\[70px\]{
-  margin-bottom: 70px;
 }
 
 .mb-\[8px\]{
@@ -1038,6 +1038,10 @@ video {
   margin-top: 10px;
 }
 
+.mt-\[150px\]{
+  margin-top: 150px;
+}
+
 .mt-\[160px\]{
   margin-top: 160px;
 }
@@ -1066,44 +1070,12 @@ video {
   margin-top: 2px;
 }
 
-.mt-\[300px\]{
-  margin-top: 300px;
-}
-
 .mt-\[360px\]{
   margin-top: 360px;
 }
 
 .mt-\[40px\]{
   margin-top: 40px;
-}
-
-.mb-\[46px\]{
-  margin-bottom: 46px;
-}
-
-.mb-\[12px\]{
-  margin-bottom: 12px;
-}
-
-.mt-\[80px\]{
-  margin-top: 80px;
-}
-
-.mt-\[120px\]{
-  margin-top: 120px;
-}
-
-.mt-\[150px\]{
-  margin-top: 150px;
-}
-
-.mt-\[140px\]{
-  margin-top: 140px;
-}
-
-.mt-\[100px\]{
-  margin-top: 100px;
 }
 
 .box-border{
@@ -1412,10 +1384,6 @@ video {
 
 .w-full{
   width: 100%;
-}
-
-.w-\[1620px\]{
-  width: 1620px;
 }
 
 .min-w-\[1450px\]{
@@ -1826,6 +1794,11 @@ video {
   padding-right: 25px;
 }
 
+.px-\[300px\]{
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
 .px-\[30px\]{
   padding-left: 30px;
   padding-right: 30px;
@@ -1879,21 +1852,6 @@ video {
 .py-\[30px\]{
   padding-top: 30px;
   padding-bottom: 30px;
-}
-
-.px-\[40px\]{
-  padding-left: 40px;
-  padding-right: 40px;
-}
-
-.px-\[100px\]{
-  padding-left: 100px;
-  padding-right: 100px;
-}
-
-.px-\[80px\]{
-  padding-left: 80px;
-  padding-right: 80px;
 }
 
 .pb-\[18px\]{
@@ -1995,6 +1953,10 @@ video {
   font-size: 26px;
 }
 
+.text-\[28px\]{
+  font-size: 28px;
+}
+
 .text-\[30px\]{
   font-size: 30px;
 }
@@ -2019,12 +1981,12 @@ video {
   font-size: 48px;
 }
 
-.text-\[56px\]{
-  font-size: 56px;
-}
-
 .text-\[60px\]{
   font-size: 60px;
+}
+
+.text-\[70px\]{
+  font-size: 70px;
 }
 
 .text-base{
@@ -2050,10 +2012,6 @@ video {
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-\[28px\]{
-  font-size: 28px;
 }
 
 .font-\[400\]{
@@ -2084,8 +2042,16 @@ video {
   font-weight: 600;
 }
 
+.font-thin{
+  font-weight: 100;
+}
+
 .leading-5{
   line-height: 1.25rem;
+}
+
+.leading-\[1\.25\]{
+  line-height: 1.25;
 }
 
 .leading-loose{
@@ -2151,11 +2117,6 @@ video {
 .text-\[\#868e96\]{
   --tw-text-opacity: 1;
   color: rgb(134 142 150 / var(--tw-text-opacity, 1));
-}
-
-.text-\[\#9f9f9f\]{
-  --tw-text-opacity: 1;
-  color: rgb(159 159 159 / var(--tw-text-opacity, 1));
 }
 
 .text-\[\#ACACAC\]{
@@ -2236,6 +2197,11 @@ video {
 .text-gray-200{
   --tw-text-opacity: 1;
   color: rgb(229 231 235 / var(--tw-text-opacity, 1));
+}
+
+.text-gray-400{
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity, 1));
 }
 
 .text-neutral-400{
@@ -2762,7 +2728,9 @@ li > a:active {
 
 .tab-head > ul > li.active a {
   background-color: white;
-  border-color: black;
+  border: 2px solid black;
+  color: black;
+  font-weight: 600;
 }
 
 /* ---- 탭 바디/슬라이드 이미지 ---- */
@@ -3013,6 +2981,11 @@ li > a:active {
 .hover\:text-\[\#f7f7f7\]:hover{
   --tw-text-opacity: 1;
   color: rgb(247 247 247 / var(--tw-text-opacity, 1));
+}
+
+.hover\:text-black:hover{
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
 
 .hover\:text-yellow-400:hover{

@@ -402,7 +402,9 @@ li > a:active {
 }
 .tab-head > ul > li.active a {
   background-color: white;
-  border-color: black;
+  border: 2px solid black;
+  color: black;
+  font-weight: 600;
 }
 
 /* ---- 탭 바디/슬라이드 이미지 ---- */

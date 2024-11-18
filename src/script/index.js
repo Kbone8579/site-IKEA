@@ -16,9 +16,11 @@ $(document).ready(function () {
     let currentScroll = window.scrollY
 
     if (currentScroll > preScroll){
-      document.querySelector('.top-bar').classList.remove('fixed');
+      document.querySelector('.top-bar-2').classList.remove('fixed');
+    } else if (currentScroll === 0) {
+      document.querySelector('.top-bar-2').classList.remove('fixed');
     } else {
-      document.querySelector('.top-bar').classList.add('fixed');
+      document.querySelector('.top-bar-2').classList.add('fixed');
     }
 
     preScroll = currentScroll;
