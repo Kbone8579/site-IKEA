@@ -1078,6 +1078,10 @@ video {
   margin-top: 40px;
 }
 
+.mt-\[140px\]{
+  margin-top: 140px;
+}
+
 .box-border{
   box-sizing: border-box;
 }
